@@ -1,0 +1,50 @@
+@import "../../styles/variables";
+
+.navbar-toggler {
+  position: relative;
+  border: 0;
+
+  span {
+    display: block;
+    background-color: $brand-color;
+    height: 4px;
+    width: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
+  }
+
+  span:nth-child(1),
+  span:nth-child(3) {
+    transition: transform 0.35s ease-in-out;
+    transition: transform 0.35s ease-in-out;
+  }
+
+  &:focus,
+  &:active {
+    outline: 0 !important;
+    box-shadow: none;
+  }
+
+  &:not(.collapsed) {
+    span:nth-child(1) {
+      position: absolute;
+      left: 12px;
+      top: 10px;
+      transform: rotate(135deg);
+      opacity: 0.9;
+    }
+    span:nth-child(2) {
+      visibility: hidden;
+    }
+    span:nth-child(3) {
+      position: absolute;
+      left: 12px;
+      top: 10px;
+      transform: rotate(-135deg);
+      opacity: 0.9;
+    }
+  }
+}
