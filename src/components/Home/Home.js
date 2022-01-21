@@ -19,6 +19,7 @@ function Home() {
           buttonTextFirst={data.button1}
           buttonTextSecond={data.button2}
           imageRight={data.pictureRight}
+          linkFirst={data.link1}
         />
       </Col>
     </Row>

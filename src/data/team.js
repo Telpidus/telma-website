@@ -1,66 +1,43 @@
-import Miriam from "../assets/Team/miriam.jpeg";
-import RicardoPereira from "../assets/Team/ricardopereira.png";
-import JoseAmorim from "../assets/Team/joseamorim.jpeg";
-import Barbara from "../assets/Team/barbara.jpeg";
-import Ines from "../assets/Team/inesmartins.jpeg";
-import Daniela from "../assets/Team/danielapereira.jpeg";
+import image1 from "../assets/Research/image1.png";
+import image2 from "../assets/Research/image2.png";
+import image3 from "../assets/Research/image3.png";
 
 const teamMembers = [
   {
     id: 1,
+    title: "Convergent & Divergent evolution",
+    subtitle: "PostDoc @ Rosenblum Lab, UCBerkeley",
     name: "Miriam",
     description:
-      "PhD Candidate @ University of Coimbra | CISUC | Founder and Instructor @ As Raparigas do Código",
-    img: Miriam,
+      "Academic work & Gallery. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
+    img: image1,
     url: "https://www.linkedin.com/in/miriamseoanesantos/",
     tech: "JavaScript ES6",
     project: true,
+    pictureRight: false,
   },
   {
     id: 2,
+    title: "Convergent & Divergent evolution",
     name: "Ricardo Pereira",
     description: "Machine Learning Researcher @ University of Coimbra (CISUC)",
-    img: RicardoPereira,
+    img: image2,
     url: "https://www.linkedin.com/in/ricardo-dc-pereira/",
     tech: "python",
     admin: true,
+    pictureRight: true,
   },
   {
     id: 3,
+    title: "Convergent & Divergent evolution",
     name: "José Amorim",
     description:
       "Invited Teaching Assistant at University of Coimbra, DEI, PhD Student in The Faculty of Sciences and Technology of University of Coimbra",
-    img: JoseAmorim,
+    img: image3,
     url: "https://www.linkedin.com/in/josepamorim/",
     tech: "python",
     admin: true,
-  },
-  {
-    id: 4,
-    name: "Barbara Amorim",
-    description: "Full Stack Web Developer",
-    img: Barbara,
-    url: "https://www.linkedin.com/in/barbaramorim7/",
-    tech: "angular",
-    admin: true,
-  },
-  {
-    id: 5,
-    name: "Inês Martins",
-    description: "Application Security Analyst & Researcher",
-    img: Ines,
-    url: "https://inesmartins.github.io/",
-    tech: "everything",
-    admin: true,
-  },
-  {
-    id: 6,
-    name: "Daniela Pereira",
-    description: "Information Systems Consultant",
-    img: Daniela,
-    url: "https://www.linkedin.com/in/danielasmpereira/",
-    tech: "Information Management",
-    admin: true,
+    pictureRight: false,
   },
 ];
 
