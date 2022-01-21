@@ -1,9 +1,11 @@
 import React from "react";
 import BannerImage from "../Banner/BannerImage";
+import Banner from "../Banner/Banner";
 import Teaser from "../Teaser/Teaser";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import observingImage from "../../assets/Home/observing.png";
-import teasers from "../../data/team.js";
+import bannerimage from "../../assets/banner_hands.png";
+import teasers from "../../data/research.js";
 
 function Workshops() {
   const teasersArray = teasers.map((data) => (
@@ -22,7 +24,7 @@ function Workshops() {
     </Row>
   ));
   return (
-    <Container fluid className="research-section">
+    <div className="research-section">
       <BannerImage
         title="Research"
         description="I wanted to understand biodiversity so... 
@@ -30,8 +32,14 @@ function Workshops() {
                       Learn about my academic history and see my scientific peer-reviewed publications"
         imgPath={observingImage}
       />
-      <Container className="home-section">{teasersArray}</Container>
-    </Container>
+      {teasersArray}
+      <Banner
+        backgroundImage={bannerimage}
+        buttonLabel="Email me"
+        title="Let’s connect!"
+        text="For work enquiries and creative collabrations"
+      />
+    </div>
   );
 }
 

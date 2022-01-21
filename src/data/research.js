@@ -6,8 +6,8 @@ const teamMembers = [
   {
     id: 1,
     title: "Convergent & Divergent evolution",
-    subtitle: "PostDoc @ Rosenblum Lab, UCBerkeley",
-    name: "Miriam",
+    subtitle: "PostDoc @ Rosenblum Lab, UCBerkeley 🇺🇸 ",
+    name: "Batata",
     description:
       "Academic work & Gallery. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
     img: image1,
@@ -18,9 +18,11 @@ const teamMembers = [
   },
   {
     id: 2,
-    title: "Convergent & Divergent evolution",
-    name: "Ricardo Pereira",
-    description: "Machine Learning Researcher @ University of Coimbra (CISUC)",
+    title: "Genomic footprints of Natural Selection",
+    subtitle: "PhD @ Salzburger Lab, Unibas 🇨🇭",
+    name: "Batata",
+    description:
+      "Academic work & Gallery. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
     img: image2,
     url: "https://www.linkedin.com/in/ricardo-dc-pereira/",
     tech: "python",
@@ -29,10 +31,11 @@ const teamMembers = [
   },
   {
     id: 3,
-    title: "Convergent & Divergent evolution",
-    name: "José Amorim",
+    title: "Speciation continuum",
+    subtitle: "MSc @ CoBig2 Lab, FCUL 🇵🇹",
+    name: "Batata",
     description:
-      "Invited Teaching Assistant at University of Coimbra, DEI, PhD Student in The Faculty of Sciences and Technology of University of Coimbra",
+      "Academic work & Gallery. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
     img: image3,
     url: "https://www.linkedin.com/in/josepamorim/",
     tech: "python",
