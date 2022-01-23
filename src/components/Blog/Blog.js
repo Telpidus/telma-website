@@ -33,7 +33,7 @@ function Blog() {
       setPosts(res);
       setLoading(false);
     });
-  }, []);
+  });
 
   const blogCardsArray = posts.map((post, index) => (
     <img src={post.media_url} alt={post.caption} id={post.id} />
