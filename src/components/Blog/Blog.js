@@ -12,7 +12,7 @@ function Blog() {
     "https://graph.instagram.com/user_id=17841401299137344?access_token=" +
     token +
     "&fields=id,caption,media_type,media_url,permalink,timestamp";
-  const DEV_TO_URL = "https://dev.to/api/articles?username=monicafidalgo";
+  //const DEV_TO_URL = "https://dev.to/api/articles?username=monicafidalgo";
 
   const getPosts = async () => {
     try {
