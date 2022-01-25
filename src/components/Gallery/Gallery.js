@@ -11,6 +11,15 @@ function Gallery() {
         Also get to share the moments that inspired my writtings  "
         imgPath={observingImage}
       />
+      <iframe
+        title="iframe"
+        src="https://snapwidget.com/embed/982536"
+        className="snapwidget-widget"
+        allowtransparency="true"
+        frameborder="0"
+        scrolling="no"
+        style={{ border: "none", overflow: "hidden", width: "100%" }}
+      ></iframe>
     </div>
   );
 }
