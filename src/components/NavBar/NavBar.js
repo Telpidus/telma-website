@@ -69,10 +69,10 @@ function NavBarComponent() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/team"
+                to="/outreach"
                 onClick={() => updateExpanded(false)}
               >
-                Equipa
+                Outreach
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -87,10 +87,10 @@ function NavBarComponent() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/contacts"
+                to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                Contatos
+                About
               </Nav.Link>
             </Nav.Item>
           </Nav>
