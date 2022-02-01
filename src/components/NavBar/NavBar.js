@@ -45,25 +45,25 @@ function NavBarComponent() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <i className="fas fa-home"></i> Home
+                Home
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/workshops"
+                to="/research"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fas fa-laptop-code"></i> Workshops
+                Research
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/events"
+                to="/gallery"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-calendar"></i> Eventos
+                Gallery
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -72,7 +72,7 @@ function NavBarComponent() {
                 to="/team"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fas fa-user-friends"></i> Equipa
+                Equipa
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -81,7 +81,7 @@ function NavBarComponent() {
                 to="/blog"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-file-alt"></i> Blog
+                Blog
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -90,7 +90,7 @@ function NavBarComponent() {
                 to="/contacts"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-paper-plane"></i> Contatos
+                Contatos
               </Nav.Link>
             </Nav.Item>
           </Nav>

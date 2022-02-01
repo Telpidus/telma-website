@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Team.scss";
 import TeamCard from "./TeamCard";
-import teamMembers from "../../data/team.js";
+import teamMembers from "../../data/research.js";
 
 function Team() {
   const teamArray = teamMembers.map((data) => (

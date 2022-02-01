@@ -12,6 +12,7 @@ const home = [
     button1: "Research",
     button2: "Gallery",
     pictureRight: false,
+    link1: "research",
   },
   {
     id: 2,

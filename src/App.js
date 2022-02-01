@@ -1,6 +1,6 @@
 import Home from "./components/Home/Home";
-import Workshops from "./components/Workshops/Workshops";
-import Events from "./components/Events/Events";
+import Workshops from "./components/Research/Research";
+import Gallery from "./components/Gallery/Gallery";
 import Team from "./components/Team/Team";
 import Blog from "./components/Blog/Blog";
 import Contact from "./components/Contacts/Contacts";
@@ -17,8 +17,8 @@ function App() {
         <main>
           <Routes>
             <Route path="/" exact element={<Home />} />
-            <Route path="/workshops" exact element={<Workshops />} />
-            <Route path="/events" exact element={<Events />} />
+            <Route path="/research" exact element={<Workshops />} />
+            <Route path="/gallery" exact element={<Gallery />} />
             <Route path="/team" element={<Team />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contacts" element={<Contact />} />

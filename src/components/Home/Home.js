@@ -5,7 +5,7 @@ import BannerHome from "../Banner/BannerHome";
 import Banner from "../Banner/Banner";
 import home from "../../data/home.js";
 import Telma from "../../assets/Home/telma_laurentino.png";
-import bannerimage from "../../assets/banner_hands.png";
+import bannerimage from "../../assets/banner_contact_hands.webp";
 import "./home.scss";
 
 function Home() {
@@ -19,6 +19,7 @@ function Home() {
           buttonTextFirst={data.button1}
           buttonTextSecond={data.button2}
           imageRight={data.pictureRight}
+          linkFirst={data.link1}
         />
       </Col>
     </Row>
@@ -32,7 +33,6 @@ function Home() {
         Teacher of trees"
         imgPath={Telma}
       />
-      <hr />
       <Container className="home-section">{teasersArray}</Container>
       <Banner
         backgroundImage={bannerimage}
