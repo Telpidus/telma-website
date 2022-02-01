@@ -7,13 +7,14 @@ function Blog() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   //we can change this url after
-  const DEV_TO_URL = "https://dev.to/api/articles?username=monicafidalgo";
+  const DEV_TO_URL =
+    "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@telma.laurentino";
 
   const getPosts = async () => {
     try {
       const result = axios.get(DEV_TO_URL).then((res) => {
         console.log(res);
-        return res.data;
+        return res.data.items;
       });
       return result;
     } catch (error) {
@@ -29,8 +30,8 @@ function Blog() {
   }, []);
 
   const blogCardsArray = posts.map((post) => (
-    <Col md={3} className="project-card" key={post.id}>
-      <BlogCard imgPath={post.cover_image} link={post.url} title={post.title} />
+    <Col md={4} className="project-card" key={post.guid}>
+      <BlogCard imgPath={post.thumbnail} link={post.link} title={post.title} />
     </Col>
   ));
 
