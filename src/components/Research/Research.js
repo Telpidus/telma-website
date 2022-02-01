@@ -4,7 +4,7 @@ import Banner from "../Banner/Banner";
 import Teaser from "../Teaser/Teaser";
 import { Row, Col } from "react-bootstrap";
 import observingImage from "../../assets/Home/observing.png";
-import bannerimage from "../../assets/banner_hands.png";
+import bannerimage from "../../assets/banner_contact_hands.webp";
 import teasers from "../../data/research.js";
 
 function Workshops() {

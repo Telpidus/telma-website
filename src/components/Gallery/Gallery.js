@@ -1,6 +1,8 @@
 import React from "react";
 import BannerImage from "../Banner/BannerImage";
+import Banner from "../Banner/Banner";
 import observingImage from "../../assets/Home/observing.png";
+import bannerimage from "../../assets/banner_contact_lizard.webp";
 import photos from "../../data/gallery";
 import "./gallery.scss";
 
@@ -27,6 +29,12 @@ function Gallery() {
         imgPath={observingImage}
       />
       <div className="masonry">{imagesArray}</div>
+      <Banner
+        backgroundImage={bannerimage}
+        buttonLabel="Email me"
+        title="Let’s connect!"
+        text="For work enquiries and creative collabrations"
+      />
     </div>
   );
 }

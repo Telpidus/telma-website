@@ -14,6 +14,7 @@ const teamMembers = [
     url: "https://www.linkedin.com/in/miriamseoanesantos/",
     tech: "JavaScript ES6",
     project: true,
+    button1: "Publications",
     pictureRight: false,
   },
   {
@@ -27,6 +28,7 @@ const teamMembers = [
     url: "https://www.linkedin.com/in/ricardo-dc-pereira/",
     tech: "python",
     admin: true,
+    button1: "Publications",
     pictureRight: true,
   },
   {
@@ -40,6 +42,7 @@ const teamMembers = [
     url: "https://www.linkedin.com/in/josepamorim/",
     tech: "python",
     admin: true,
+    button1: "Publications",
     pictureRight: false,
   },
 ];
