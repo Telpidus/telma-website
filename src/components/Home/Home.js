@@ -33,7 +33,6 @@ function Home() {
         Teacher of trees"
         imgPath={Telma}
       />
-      <hr />
       <Container className="home-section">{teasersArray}</Container>
       <Banner
         backgroundImage={bannerimage}
