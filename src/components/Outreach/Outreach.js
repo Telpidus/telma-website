@@ -1,6 +1,7 @@
 import React from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
+import Youtube from "../Youtube/Youtube";
 import translatingImage from "../../assets/Home/translating.png";
 import bannerimage from "../../assets/banner_contact_hands.webp";
 import "./outreach.scss";
@@ -13,6 +14,7 @@ function Outreach() {
         description="I want everyone to be able to learn about the evolution of life on our planet! "
         imgPath={translatingImage}
       />
+      <Youtube />
       <Banner
         backgroundImage={bannerimage}
         buttonLabel="Email me"
