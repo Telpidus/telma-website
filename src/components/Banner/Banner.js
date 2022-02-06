@@ -1,3 +1,5 @@
+import MailTo from "../MailTo/MailTo";
+
 function Banner(props) {
   let imageUrl = props.backgroundImage;
 
@@ -8,7 +10,13 @@ function Banner(props) {
           <h3>{props.title}</h3>
           <p>{props.text}</p>
           <button className="button-primary" aria-label={props.buttonLabel}>
-            {props.buttonLabel}
+            <MailTo
+              email="foo@bar.baz"
+              subject="Hello & Welcome"
+              body="Hello world!"
+            >
+              {props.buttonLabel}
+            </MailTo>
           </button>
         </div>
       </div>

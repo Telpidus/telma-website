@@ -1,6 +1,7 @@
 import React from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
+import Carousel from "../Carousel/Carousel";
 import translatingImage from "../../assets/Home/translating.png";
 import bannerimage from "../../assets/banner_contact_hands.webp";
 import "./teaching.scss";
@@ -13,6 +14,7 @@ function Teaching() {
         description="I want everyone to be able to learn about the evolution of life on our planet! "
         imgPath={translatingImage}
       />
+      <Carousel />
       <Banner
         backgroundImage={bannerimage}
         buttonLabel="Email me"
