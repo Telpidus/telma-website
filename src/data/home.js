@@ -13,6 +13,7 @@ const home = [
     button2: "Gallery",
     pictureRight: false,
     link1: "research",
+    link2: "gallery",
   },
   {
     id: 2,
@@ -23,6 +24,8 @@ const home = [
     button1: "Outreach",
     button2: "Teaching",
     pictureRight: true,
+    link1: "outreach",
+    link2: "teaching",
   },
   {
     id: 3,
@@ -33,6 +36,7 @@ const home = [
     button1: "Blog",
     button2: "Book",
     pictureRight: false,
+    link1: "blog",
   },
 ];
 

@@ -15,9 +15,11 @@ function Teaser(props) {
             </button>
           </Link>
           {props.buttonTextSecond ? (
-            <button className="button-secondary">
-              {props.buttonTextSecond}
-            </button>
+            <Link to={{ pathname: `/${props.linkSecond}` }}>
+              <button className="button-secondary">
+                {props.buttonTextSecond}
+              </button>
+            </Link>
           ) : null}
         </div>
 
@@ -38,9 +40,11 @@ function Teaser(props) {
             </button>
           </Link>
           {props.buttonTextSecond ? (
-            <button className="button-secondary">
-              {props.buttonTextSecond}
-            </button>
+            <Link to={{ pathname: `/${props.linkSecond}` }}>
+              <button className="button-secondary">
+                {props.buttonTextSecond}
+              </button>
+            </Link>
           ) : null}
         </div>
       </div>

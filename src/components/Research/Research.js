@@ -10,7 +10,7 @@ import teasers from "../../data/research.js";
 function Workshops() {
   const teasersArray = teasers.map((data) => (
     <Row key={data.id}>
-      <Col md={12} className="team-card">
+      <Col md={12}>
         <Teaser
           title={data.title}
           subtitle={data.subtitle}

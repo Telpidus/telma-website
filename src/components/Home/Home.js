@@ -20,6 +20,7 @@ function Home() {
           buttonTextSecond={data.button2}
           imageRight={data.pictureRight}
           linkFirst={data.link1}
+          linkSecond={data.link2}
         />
       </Col>
     </Row>
