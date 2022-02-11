@@ -4,6 +4,7 @@ import Gallery from "./components/Gallery/Gallery";
 import Outreach from "./components/Outreach/Outreach";
 import Teaching from "./components/Teaching/Teaching";
 import Blog from "./components/Blog/Blog";
+import Book from "./components/Book/Book";
 import About from "./components/About/About";
 import NavBar from "./components/NavBar/NavBar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -23,6 +24,7 @@ function App() {
             <Route path="/outreach" element={<Outreach />} />
             <Route path="/teaching" element={<Teaching />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/book" element={<Book />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </main>

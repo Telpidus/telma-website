@@ -7,13 +7,19 @@ function Teaser(props) {
       <div className="d-flex justify-content-between align-items-center">
         <div>
           <h2>{props.title}</h2>
-          {props.subtitle ? <h4>{props.subtitle}</h4> : null}
+          {props.subtitle ? (
+            <a href={props.url}>
+              <h4>{props.subtitle}</h4>{" "}
+            </a>
+          ) : null}
           <p>{props.description}</p>
-          <Link to={{ pathname: `/${props.linkFirst}` }}>
-            <button className="button-secondary">
-              {props.buttonTextFirst}
-            </button>
-          </Link>
+          {props.buttonTextFirst ? (
+            <Link to={{ pathname: `/${props.linkFirst}` }}>
+              <button className="button-secondary">
+                {props.buttonTextFirst}
+              </button>
+            </Link>
+          ) : null}
           {props.buttonTextSecond ? (
             <Link to={{ pathname: `/${props.linkSecond}` }}>
               <button className="button-secondary">
@@ -32,13 +38,19 @@ function Teaser(props) {
         <img src={props.imgPath} alt="teaser with icon and text" />
         <div>
           <h2>{props.title}</h2>
-          {props.subtitle ? <h4>{props.subtitle}</h4> : null}
+          {props.subtitle ? (
+            <a href={props.url}>
+              <h4>{props.subtitle}</h4>{" "}
+            </a>
+          ) : null}
           <p>{props.description}</p>
-          <Link to={{ pathname: `/${props.linkFirst}` }}>
-            <button className="button-secondary">
-              {props.buttonTextFirst}
-            </button>
-          </Link>
+          {props.buttonTextFirst ? (
+            <Link to={{ pathname: `/${props.linkFirst}` }}>
+              <button className="button-secondary">
+                {props.buttonTextFirst}
+              </button>
+            </Link>
+          ) : null}
           {props.buttonTextSecond ? (
             <Link to={{ pathname: `/${props.linkSecond}` }}>
               <button className="button-secondary">

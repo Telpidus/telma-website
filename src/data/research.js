@@ -10,8 +10,8 @@ const teamMembers = [
     description:
       "Academic work & Gallery. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
     img: image1,
-    button1: "Publications",
     pictureRight: false,
+    url: "https://ciencias.ulisboa.pt/pt/laborat%C3%B3rios",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const teamMembers = [
     description:
       "Academic work & Gallery. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
     img: image2,
-    button1: "Publications",
     pictureRight: true,
+    url: "https://ciencias.ulisboa.pt/pt/laborat%C3%B3rios",
   },
   {
     id: 3,
@@ -30,8 +30,8 @@ const teamMembers = [
     description:
       "Academic work & Gallery. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
     img: image3,
-    button1: "Publications",
     pictureRight: false,
+    url: "https://ciencias.ulisboa.pt/pt/laborat%C3%B3rios",
   },
 ];
 

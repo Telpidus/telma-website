@@ -33,6 +33,7 @@ function Home() {
         subTitle="Evolutionary Biologist
         Teacher of trees"
         imgPath={Telma}
+        link="about"
       />
       <Container className="home-section">{teasersArray}</Container>
       <Banner
