@@ -16,9 +16,9 @@ function Workshops() {
           subtitle={data.subtitle}
           description={data.description}
           imgPath={data.img}
-          buttonTextFirst={data.button1}
           imageRight={data.pictureRight}
           linkFirst={data.link1}
+          url={data.url}
         />
       </Col>
     </Row>

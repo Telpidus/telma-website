@@ -37,6 +37,7 @@ const home = [
     button2: "Book",
     pictureRight: false,
     link1: "blog",
+    link2: "book",
   },
 ];
 
