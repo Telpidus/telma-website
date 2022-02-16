@@ -2,39 +2,28 @@ import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./carousel.scss";
 
-const data = [
-  {
-    caption: "Caption",
-    description: "Description Here",
-  },
-  {
-    caption: "Caption",
-    description: "Description Here",
-  },
-  {
-    caption: "Caption",
-    description: "Description Here",
-  },
-];
-
-function HomeCarousel() {
+function HomeCarousel(props) {
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
 
+  const carouselArray = props.data.map((slide, i) => (
+    <Carousel.Item key={slide.id}>
+      <Carousel.Caption>
+        <div>
+          <i>"{slide.description}"</i>
+        </div>
+        <div>
+          <small>{slide.name}</small>
+        </div>
+      </Carousel.Caption>
+    </Carousel.Item>
+  ));
+
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} variant="dark">
-      {data.map((slide, i) => {
-        return (
-          <Carousel.Item>
-            <Carousel.Caption>
-              <h3>{slide.caption}</h3>
-              <p>{slide.description}</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        );
-      })}
+      {carouselArray}
     </Carousel>
   );
 }

@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner";
 import Carousel from "../Carousel/Carousel";
 import translatingImage from "../../assets/Home/translating.png";
 import bannerimage from "../../assets/banner_contact_hands.webp";
+import students from "../../data/students.js";
 import "./teaching.scss";
 
 function Teaching() {
@@ -14,7 +15,7 @@ function Teaching() {
         description="I want everyone to be able to learn about the evolution of life on our planet! "
         imgPath={translatingImage}
       />
-      <Carousel />
+      <Carousel data={students} />
       <Banner
         backgroundImage={bannerimage}
         buttonLabel="Email me"
