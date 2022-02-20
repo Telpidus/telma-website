@@ -2,6 +2,7 @@ import React from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import Teaser from "../Teaser/Teaser";
+import BasicCard from "../Card/BasicCard";
 import { Row, Col } from "react-bootstrap";
 import observingImage from "../../assets/Home/observing.png";
 import bannerimage from "../../assets/banner_contact_hands.webp";
@@ -33,6 +34,12 @@ function Workshops() {
         imgPath={observingImage}
       />
       {teasersArray}
+      <Row className="justify-content-md-center">
+        <div className="col-md-8">
+          <h3>First authorships</h3>
+          <BasicCard />
+        </div>
+      </Row>
       <Banner
         backgroundImage={bannerimage}
         buttonLabel="Email me"

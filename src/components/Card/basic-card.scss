@@ -1,0 +1,57 @@
+@import "../../styles/variables";
+
+.basic-card {
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+
+.basic-card__headline {
+  font-style: italic;
+  &:after {
+    background-color: $brand-color;
+    content: "";
+    display: block;
+    height: 2px;
+    margin-top: 6px;
+    width: 20px;
+  }
+}
+
+.basic-card__link-secondary {
+  position: relative;
+  display: table;
+  &:before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background: $brand-color;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -30px;
+    transition: all 0.3s ease;
+  }
+
+  &:hover:before {
+    right: -16px;
+    width: 15px;
+  }
+
+  &:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent $brand-color;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -35px;
+    transition: all 0.3s ease;
+  }
+
+  &:hover:after {
+    right: -21px;
+  }
+}
