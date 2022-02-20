@@ -7,7 +7,7 @@ const publications = [
       "evALLution: making basic evolution concepts accessible to people with visual impairment through a multi-sensory tree of life",
     url: "https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1",
     date: "Evolution: education and outreach (2021) 14:5; * Equal contribution",
-    outreachDescription1: "Read about 3 lessons the blind community taught us",
+    outreachDescription1: "3 lessons the blind community taught us",
     outreachLink1:
       "https://ssecommunityblog.org/evallution-3-lessons-the-blind-community-taught-us-about-inclusive-teaching-of-evolution/",
     outreachDescription2: "Feature in a Portuguese news paper 🇵🇹",
@@ -23,7 +23,7 @@ const publications = [
     url: "https://www.nature.com/articles/s41467-020-15657-3",
     date: "Nature Communications (2020) 11, 1928",
     outreachDescription1:
-      "Read about this article on Nature Ecology and Evolution ‘Behind the paper",
+      "Featured on Nature Ecology and Evolution 'Behind the paper'",
     outreachLink1:
       "https://ecoevocommunity.nature.com/posts/65697-chasing-selection",
   },
@@ -34,8 +34,7 @@ const publications = [
       "Liana abundance and relationships to sapling and tree hosts in an East African Primary Forest",
     url: "https://onlinelibrary.wiley.com/doi/10.1111/aje.12584",
     date: "African journal of ecology (2019) 57(1), 130-136",
-    outreachDescription1:
-      "Read about why anyone should care about Ugandan Lianas",
+    outreachDescription1: "Why anyone should care about Ugandan Lianas?",
     outreachLink1:
       "https://treesinspace.com/2019/01/03/why-should-anyone-care-about-ugandan-lianas/",
   },
