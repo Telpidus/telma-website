@@ -14,9 +14,7 @@ function BlogCard(props) {
       <Card className="blog-card-view">
         <Card.Img variant="top" src={props.imgPath} className="blog-img" />
         <Card.Footer>
-          <i className="fas fa-external-link-square-alt">&nbsp;</i>
           {props.title}
-
           <p style={{ marginBlockEnd: "0em" }}>{props.site}</p>
         </Card.Footer>
       </Card>
