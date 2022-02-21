@@ -1,3 +1,5 @@
+import evollution from "../assets/articles/evollution.webp";
+
 const articles = [
   {
     id: 1,
@@ -6,6 +8,7 @@ const articles = [
   },
   {
     id: 2,
+    image: evollution,
     title: "What if understanding evolution could help save us?",
     url: "https://medium.com/sci-five-university-of-basel/what-if-understanding-evolution-could-help-save-us-c176baa8358e",
   },
