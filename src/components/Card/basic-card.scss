@@ -1,0 +1,50 @@
+@import "../../styles/variables";
+
+.basic-card {
+  border-radius: 8px;
+  box-shadow: 0 6px 8px 2px #adb5bd4a;
+  padding: 30px 20px;
+}
+
+.basic-card__info {
+  font-size: 14px;
+}
+
+.basic-card__link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.basic-card__headline {
+  font-style: italic;
+
+  &:after {
+    background-color: $brand-color;
+    content: "";
+    display: block;
+    height: 2px;
+    margin-top: 6px;
+    width: 30px;
+  }
+}
+
+.basic-card__link-secondary {
+  display: inline-block;
+  position: relative;
+
+  &:after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: rgba($brand-color, 0.6);
+    transition: all 0.5s;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}

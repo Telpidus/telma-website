@@ -43,3 +43,15 @@ code {
     font-size: 48px;
   }
 }
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited,
+  &:focus,
+  &:hover,
+  &:visited {
+    color: $brand-color;
+  }
+}
