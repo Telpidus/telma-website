@@ -8,22 +8,30 @@ import "./teaching.scss";
 function TeachingTrees() {
   return (
     <div className="teaching-trees">
-      <Row>
-        <Col md={5} sm={12}>
+      <Row className="justify-content-center">
+        <Col xl={3} md={5} sm={12}>
           <div className="teaching-trees__content">
-            <img src={phylogeneticTree} alt="Phylogenetic Tree" />
+            <img
+              src={phylogeneticTree}
+              alt="Phylogenetic Tree"
+              className="teaching-trees__img"
+            />
             <h5>The Phylogenetic tree of life</h5>
             <h5>based on genomic data</h5>
           </div>
         </Col>
-        <Col md={2} sm={12}>
+        <Col xl={1} md={2} sm={12}>
           <div className="teaching-trees__separator">
             <h5>&</h5>
           </div>
         </Col>
-        <Col md={5} sm={12}>
+        <Col xl={3} md={5} sm={12}>
           <div className="teaching-trees__content">
-            <img src={worldviewTree} alt="World View Tree" />
+            <img
+              src={worldviewTree}
+              alt="World View Tree"
+              className="teaching-trees__img"
+            />
             <h5>The Worldview tree of life</h5>
             <h5>based on our evolution</h5>
           </div>
