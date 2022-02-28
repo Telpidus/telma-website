@@ -29,6 +29,8 @@ const articlesArray = articles.map((article) => (
       imgPath={article.image}
       link={article.url}
       title={article.title}
+      description={article.description}
+      alt={article.alt}
     />
   </Col>
 ));
