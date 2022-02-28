@@ -1,11 +1,12 @@
+@import "../../../styles/variables";
+
 .box-card {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
   box-shadow: 0px 30px 40px -20px #a3a5ae;
   padding: 30px;
-  margin: 20px;
-  border-top: 3px solid #29a0b1;
+  border-top: 3px solid $brand-color-tertiary;
   transition: all 0.2s;
 
   &:hover {
@@ -14,10 +15,10 @@
 }
 
 .box-card__title {
-  color: black !important;
+  color: $text-color !important;
 }
 .box-card__info {
-  color: #a3a5ae;
+  color: $text-color-secondary;
 }
 
 .box-card__icon {

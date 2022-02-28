@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ToText from "../../utils/ToText";
 import axios from "axios";
 import { Container, Row, Col } from "react-bootstrap";
 import BlogCard from "./BlogCard";
@@ -31,7 +32,12 @@ function Blog() {
 
   const blogCardsArray = posts.map((post) => (
     <Col md={4} className="project-card" key={post.guid}>
-      <BlogCard imgPath={post.thumbnail} link={post.link} title={post.title} />
+      <BlogCard
+        imgPath={post.thumbnail}
+        link={post.link}
+        title={post.title}
+        description={`${ToText(post.description.substring(0, 1000))}`}
+      />
     </Col>
   ));
 

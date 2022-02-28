@@ -11,10 +11,10 @@ function BlogCard(props) {
       style={{ fontSize: "1.2em" }}
       id={props.id}
     >
-      <img src={props.imgPath} className="blog-card__img" alt="to be done" />
+      <img src={props.imgPath} className="blog-card__img" alt={props.alt} />
       <div className="blog-card__body">
-        <h4>{props.title}</h4>
-        <p>{props.site}</p>
+        <h5>{props.title}</h5>
+        <p className="blog-card__description">{props.description}</p>
       </div>
     </a>
   );
