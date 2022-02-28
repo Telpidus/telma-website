@@ -1,1 +1,22 @@
 @import "../../styles/variables";
+
+.teaching-trees__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h5 {
+    text-align: center;
+  }
+}
+
+.teaching-trees__separator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+
+  h5 {
+    text-align: center;
+  }
+}
