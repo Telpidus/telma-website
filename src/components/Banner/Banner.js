@@ -11,9 +11,9 @@ function Banner(props) {
           <p>{props.text}</p>
           <button className="button-primary" aria-label={props.buttonLabel}>
             <MailTo
-              email="foo@bar.baz"
-              subject="Hello & Welcome"
-              body="Hello world!"
+              email="telma.laurentino@gmail.com"
+              subject="Let's connect"
+              body="Hi Telma, I would like to discuss .."
             >
               {props.buttonLabel}
             </MailTo>
