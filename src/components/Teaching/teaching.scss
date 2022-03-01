@@ -1,1 +1,13 @@
 @import "../../styles/variables";
+
+.teaching-trees__content,
+.teaching-trees__separator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teaching-trees__separator {
+  height: 100%;
+}
