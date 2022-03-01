@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import Carousel from "../Carousel/Carousel";
@@ -14,11 +14,11 @@ function Book() {
     <div className="book-section">
       <BannerImage
         title="Writtings"
-        description={[
-          "A love letter",
-          <h3>From the Forest</h3>,
-          "to you, through me",
-        ]}
+        description={
+          <Fragment>
+            A love letter <strong>From the Forest</strong> to you, through me.
+          </Fragment>
+        }
         imgPath={embodyingImage}
       />
       <Container>
