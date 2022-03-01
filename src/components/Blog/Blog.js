@@ -1,7 +1,9 @@
 import React, { Fragment } from "react";
 import BannerImage from "../Banner/BannerImage";
+import Banner from "../Banner/Banner";
+import bannerimage from "../../assets/banner_contact_lizard.webp";
 import BlogContent from "./BlogContent";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 import embodyingImage from "../../assets/Home/embodying.png";
 
@@ -26,6 +28,12 @@ function Blog() {
         imgPath={embodyingImage}
       />
       <Container>{BlogContent()}</Container>
+      <Banner
+        backgroundImage={bannerimage}
+        buttonLabel="Email me"
+        title="Let’s connect!"
+        text="For work enquiries and creative collaborations"
+      />
     </div>
   );
 }
