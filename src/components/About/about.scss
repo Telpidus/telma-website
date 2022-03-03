@@ -3,14 +3,21 @@
   margin-top: 150px;
 }
 
-.about-title {
-  position: absolute;
-  right: 0;
-  font-size: 90px;
-  top: 115px;
+@media (min-width: 992px) {
+  .about-description {
+    text-align: right;
+    margin-top: 250px;
+  }
+  .about-title {
+    font-size: 58px;
+    position: absolute;
+    right: 0;
+    top: 115px;
+  }
 }
 
-.about-description {
-  text-align: right;
-  margin-top: 250px;
+@media (min-width: 1468px) {
+  .about-title {
+    font-size: 90px;
+  }
 }

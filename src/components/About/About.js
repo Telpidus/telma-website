@@ -9,10 +9,10 @@ function About() {
     <Container className="about">
       <h2 className="about-title">Hi, I'm Telma!</h2>
       <Row>
-        <Col md={8}>
+        <Col lg={8} md={12}>
           <img src={treeOfLife} alt="Tree of Life Illustration" />
         </Col>
-        <Col md={4}>
+        <Col lg={4} md={12}>
           <AboutDescription />
         </Col>
       </Row>
