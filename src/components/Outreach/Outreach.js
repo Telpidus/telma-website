@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import YoutubeEmbed from "../Youtube/YoutubeEmbed";
@@ -9,6 +9,7 @@ import mediaContent from "../../data/media";
 import { Row, Col, Container } from "react-bootstrap";
 import translatingImage from "../../assets/Home/translating.png";
 import bannerimage from "../../assets/banner_contact_hands.webp";
+import telmaResume from "../../assets/telma_resume.pdf";
 import "./outreach.scss";
 
 const mediaArray = mediaContent.map((item) => (
@@ -36,16 +37,24 @@ const articlesArray = articles.map((article) => (
 ));
 
 function Outreach() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="outreach-section">
       <BannerImage
         title="Outreach"
         description="I want everyone to be able to learn about the evolution of life on our planet! "
         imgPath={translatingImage}
+        anchor="#articles"
+        anchorLabel="Articles"
+        downloadText="Download CV"
+        pdf={telmaResume}
+        pdfName="telma_resume.pdf"
       />
       <Container>
         <YoutubeEmbed embedId="4o3JLsXH12w?t=10" />
-        <Row>
+        <Row id="articles">
           <h3>Science for ALL</h3>
         </Row>
         <Row>{articlesArray}</Row>

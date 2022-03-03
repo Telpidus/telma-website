@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import Teaser from "../Teaser/Teaser";
@@ -10,57 +10,52 @@ import bannerimage from "../../assets/banner_contact_hands.webp";
 import teasers from "../../data/research.js";
 import publications from "../../data/publications";
 import collaborations from "../../data/collaborations";
+import telmaResume from "../../assets/telma_resume.pdf";
+
+const teasersArray = teasers.map((data) => (
+  <Col md={12} key={data.id}>
+    <Teaser
+      title={data.title}
+      subtitle={data.subtitle}
+      description={data.description}
+      imgPath={data.img}
+      imageRight={data.pictureRight}
+      linkFirst={data.link1}
+      url={data.url}
+    />
+  </Col>
+));
+
+const publicationsArray = publications.map((data) => (
+  <Col md={10} sm={12} className="mb-4" key={data.id}>
+    <BasicCard
+      title={data.title}
+      url={data.url}
+      author={data.authors}
+      date={data.date}
+      subtitle1={data.outreachDescription1}
+      subtitle2={data.outreachDescription2}
+      link1={data.outreachLink1}
+      link2={data.outreachLink2}
+    />
+  </Col>
+));
+
+const collaborationsArray = collaborations.map((data) => (
+  <Col md={6} sm={12} className="mb-4" key={data.id}>
+    <SimpleCard
+      title={data.title}
+      url={data.url}
+      author={data.authors}
+      date={data.date}
+    />
+  </Col>
+));
 
 function Workshops() {
-  const teasersArray = teasers.map((data) => (
-    <Row>
-      <Col md={12}>
-        <Teaser
-          title={data.title}
-          subtitle={data.subtitle}
-          description={data.description}
-          imgPath={data.img}
-          imageRight={data.pictureRight}
-          linkFirst={data.link1}
-          url={data.url}
-          key={data.id}
-        />
-      </Col>
-    </Row>
-  ));
-
-  const publicationsArray = publications.map((data) => (
-    <Row>
-      <Col md={10} sm={12} className="mb-4">
-        <BasicCard
-          title={data.title}
-          url={data.url}
-          author={data.authors}
-          date={data.date}
-          key={data.id}
-          subtitle1={data.outreachDescription1}
-          subtitle2={data.outreachDescription2}
-          link1={data.outreachLink1}
-          link2={data.outreachLink2}
-        />
-      </Col>
-    </Row>
-  ));
-
-  const collaborationsArray = collaborations.map((data) => (
-    <Row>
-      <Col md={10} sm={12} className="mb-4">
-        <SimpleCard
-          title={data.title}
-          url={data.url}
-          author={data.authors}
-          date={data.date}
-          key={data.id}
-        />
-      </Col>
-    </Row>
-  ));
-
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="research-section">
       <BannerImage
@@ -69,10 +64,15 @@ function Workshops() {
                       I’ve worked with a bunch of ToL branches but my core work has been done with fish and lizards, who I especially love.
                       Learn about my academic history and see my scientific peer-reviewed publications"
         imgPath={observingImage}
+        anchor="#publications"
+        anchorLabel="Publications"
+        downloadText="Download CV"
+        pdf={telmaResume}
+        pdfName="telma_resume.pdf"
       />
       <Container>
         {teasersArray}
-        <Row className="mt-5">
+        <Row id="publications" className="mt-5">
           <div className="col-md-12">
             <h3>Scientific publications</h3>
             <h4>First authorships</h4>
@@ -84,7 +84,7 @@ function Workshops() {
             <h4>Collaborations</h4>
           </div>
         </Row>
-        {collaborationsArray}
+        <Row>{collaborationsArray}</Row>
       </Container>
 
       <Banner
