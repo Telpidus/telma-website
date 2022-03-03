@@ -11,7 +11,7 @@ import "./book.scss";
 
 function Book() {
   return (
-    <div className="book-section">
+    <div className="book">
       <BannerImage
         title="Writtings"
         description={
