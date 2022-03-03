@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useLayoutEffect } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import bannerimage from "../../assets/banner_contact_lizard.webp";
@@ -8,6 +8,9 @@ import { Container } from "react-bootstrap";
 import embodyingImage from "../../assets/Home/embodying.png";
 
 function Blog() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="book-section">
       <BannerImage

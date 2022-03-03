@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import Carousel from "../Carousel/Carousel";
@@ -11,6 +11,10 @@ import students from "../../data/students.js";
 import "./teaching.scss";
 
 function Teaching() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <div className="teaching-section">
       <BannerImage
