@@ -14,17 +14,19 @@ function Teaser(props) {
           ) : null}
           <p>{props.description}</p>
           {props.buttonTextFirst ? (
-            <Link to={{ pathname: `/${props.linkFirst}` }}>
-              <button className="button-secondary">
-                {props.buttonTextFirst}
-              </button>
+            <Link
+              to={{ pathname: `/${props.linkFirst}` }}
+              className="button-secondary"
+            >
+              {props.buttonTextFirst}
             </Link>
           ) : null}
           {props.buttonTextSecond ? (
-            <Link to={{ pathname: `/${props.linkSecond}` }}>
-              <button className="button-secondary">
-                {props.buttonTextSecond}
-              </button>
+            <Link
+              to={{ pathname: `/${props.linkSecond}` }}
+              className="button-secondary"
+            >
+              {props.buttonTextSecond}
             </Link>
           ) : null}
         </div>
@@ -45,17 +47,19 @@ function Teaser(props) {
           ) : null}
           <p>{props.description}</p>
           {props.buttonTextFirst ? (
-            <Link to={{ pathname: `/${props.linkFirst}` }}>
-              <button className="button-secondary">
-                {props.buttonTextFirst}
-              </button>
+            <Link
+              to={{ pathname: `/${props.linkFirst}` }}
+              className="button-secondary"
+            >
+              {props.buttonTextFirst}
             </Link>
           ) : null}
           {props.buttonTextSecond ? (
-            <Link to={{ pathname: `/${props.linkSecond}` }}>
-              <button className="button-secondary">
-                {props.buttonTextSecond}
-              </button>
+            <Link
+              to={{ pathname: `/${props.linkSecond}` }}
+              className="button-secondary"
+            >
+              {props.buttonTextSecond}
             </Link>
           ) : null}
         </div>

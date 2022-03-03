@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function BannerImage(props) {
   return (
@@ -10,6 +11,37 @@ function BannerImage(props) {
           {/* <button className="button-primary" aria-label={props.buttonLabel}>
             {props.buttonLabel}
           </button> */}
+          {props.anchorLabel ? (
+            <a href={props.anchor} className="button-primary">
+              {props.anchorLabel}
+            </a>
+          ) : null}
+
+          {props.buttonTextFirst ? (
+            <Link
+              to={{ pathname: `/${props.linkFirst}` }}
+              className="button-secondary"
+            >
+              {props.buttonTextFirst}
+            </Link>
+          ) : null}
+          {props.buttonTextSecond ? (
+            <Link
+              to={{ pathname: `/${props.linkSecond}` }}
+              className="button-secondary"
+            >
+              {props.buttonTextSecond}
+            </Link>
+          ) : null}
+          {props.downloadText ? (
+            <a
+              href={props.pdf}
+              className="button-primary"
+              download={props.pdfName}
+            >
+              {props.downloadText}
+            </a>
+          ) : null}
         </div>
         <img src={props.imgPath} alt={props.imgAlt}></img>
       </div>

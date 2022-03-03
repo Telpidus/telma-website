@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useLayoutEffect } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import Carousel from "../Carousel/Carousel";
@@ -10,6 +10,9 @@ import readers from "../../data/readers.js";
 import "./book.scss";
 
 function Book() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="book">
       <BannerImage

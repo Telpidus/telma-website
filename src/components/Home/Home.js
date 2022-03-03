@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Teaser from "../Teaser/Teaser";
 import BannerHome from "../Banner/BannerHome";
@@ -9,6 +9,9 @@ import bannerimage from "../../assets/banner_contact_hands.webp";
 import "./home.scss";
 
 function Home() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   const teasersArray = home.map((data) => (
     <Row key={data.id}>
       <Col md={12} className="team-card">
