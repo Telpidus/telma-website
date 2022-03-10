@@ -1,5 +1,6 @@
 import React, { useLayoutEffect } from "react";
 import AboutDescription from "./AboutDescription";
+import AboutTeaser from "./AboutTeaser";
 import { Row, Col, Container } from "react-bootstrap";
 import treeOfLife from "../../assets/treeoflife_about.webp";
 import "./about.scss";
@@ -19,6 +20,7 @@ function About() {
           <AboutDescription />
         </Col>
       </Row>
+      <AboutTeaser />
     </Container>
   );
 }
