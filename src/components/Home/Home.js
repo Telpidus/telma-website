@@ -1,5 +1,4 @@
 import React, { useLayoutEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import Teaser from "../Teaser/Teaser";
 import BannerHome from "../Banner/BannerHome";
 import Banner from "../Banner/Banner";
