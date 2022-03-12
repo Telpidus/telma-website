@@ -9,7 +9,7 @@ import mediaContent from "../../data/media";
 import { Row, Col, Container } from "react-bootstrap";
 import translatingImage from "../../assets/Home/translating.png";
 import bannerimage from "../../assets/banner_contact_hands.webp";
-import telmaResume from "../../assets/telma_resume.pdf";
+import telmaResume from "../../assets/telma_laurentino_CV.pdf";
 import "./outreach.scss";
 
 const mediaArray = mediaContent.map((item) => (
@@ -50,7 +50,7 @@ function Outreach() {
         anchorLabel="Articles"
         downloadText="Download CV"
         pdf={telmaResume}
-        pdfName="telma_resume.pdf"
+        pdfName="telma_laurentino_CV.pdf"
       />
       <Container>
         <YoutubeEmbed embedId="4o3JLsXH12w?t=10" />
