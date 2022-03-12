@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function BannerHome(props) {
   return (
     <section className="banner-home">
-      <div className="container d-flex justify-content-between">
+      <div className="banner-home__container container d-flex justify-content-between">
         <div className="banner-home__content">
           <h1>{props.title}</h1>
           <h2>{props.subTitle}</h2>
@@ -14,7 +14,12 @@ function BannerHome(props) {
             </button>
           </Link>
         </div>
-        <img src={props.imgPath} alt={props.imgAlt}></img>
+        <img
+          src={props.imgPath}
+          alt={props.imgAlt}
+          width="600"
+          height="600"
+        ></img>
       </div>
     </section>
   );

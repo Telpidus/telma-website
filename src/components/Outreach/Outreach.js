@@ -13,7 +13,7 @@ import telmaResume from "../../assets/telma_laurentino_CV.pdf";
 import "./outreach.scss";
 
 const mediaArray = mediaContent.map((item) => (
-  <Col md={4} key={item.id}>
+  <Col lg={4} md={6} sm={12} key={item.id}>
     <BoxCard
       url={item.url}
       title={item.title}
@@ -25,7 +25,7 @@ const mediaArray = mediaContent.map((item) => (
 ));
 
 const articlesArray = articles.map((article) => (
-  <Col md={4} className="project-card" key={article.id}>
+  <Col lg={4} md={6} sm={12} key={article.id}>
     <BlogCard
       imgPath={article.image}
       link={article.url}

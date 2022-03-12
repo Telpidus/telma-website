@@ -70,8 +70,8 @@ function Workshops() {
         pdf={telmaResume}
         pdfName="telma_laurentino_CV.pdf"
       />
+      {teasersArray}
       <Container>
-        {teasersArray}
         <Row id="publications" className="mt-5">
           <div className="col-md-12">
             <h3>Scientific publications</h3>

@@ -18,3 +18,9 @@
     font-size: 48px;
   }
 }
+
+@media (max-width: 768px) {
+  .banner-image__wrapper {
+    flex-wrap: wrap;
+  }
+}
