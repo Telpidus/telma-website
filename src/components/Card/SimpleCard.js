@@ -11,11 +11,9 @@ function SimpleCard(props) {
     >
       <p className="simple-card__headline">{props.date}</p>
 
-      <div>
-        <h3 className="simple-card__title">{props.title}</h3>
+      <h5 className="simple-card__title">{props.title}</h5>
 
-        <p className="simple-card__info">{props.author}</p>
-      </div>
+      <p className="simple-card__info">{props.author}</p>
     </a>
   );
 }

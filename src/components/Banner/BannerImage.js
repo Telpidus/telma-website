@@ -7,13 +7,10 @@ function BannerImage(props) {
     <section className="banner-image">
       <div className="banner-image__wrapper container d-flex justify-content-between">
         <div className="banner-image__content">
-          <h2>{props.title}</h2>
+          <h2 className="color--secondary">{props.title}</h2>
           <p>{props.description}</p>
-          {/* <button className="button-primary" aria-label={props.buttonLabel}>
-            {props.buttonLabel}
-          </button> */}
           {props.anchorLabel ? (
-            <a href={props.anchor} className="button-primary">
+            <a href={props.anchor} className="button-secondary">
               {props.anchorLabel}
             </a>
           ) : null}
@@ -37,7 +34,7 @@ function BannerImage(props) {
           {props.downloadText ? (
             <a
               href={props.pdf}
-              className="button-primary"
+              className="button-secondary"
               download={props.pdfName}
             >
               {props.downloadText}

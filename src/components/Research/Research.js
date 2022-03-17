@@ -74,7 +74,7 @@ function Workshops() {
       <Container>
         <Row id="publications" className="mt-5">
           <div className="col-md-12">
-            <h3>Scientific publications</h3>
+            <h3 className="color--secondary">Scientific publications</h3>
             <h4>First authorships</h4>
           </div>
         </Row>
@@ -85,6 +85,11 @@ function Workshops() {
           </div>
         </Row>
         <Row>{collaborationsArray}</Row>
+        <Row className="mt-5">
+          <div className="col-md-12">
+            <h3 className="color--secondary">Publication ethics</h3>
+          </div>
+        </Row>
       </Container>
 
       <Banner

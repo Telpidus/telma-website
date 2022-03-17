@@ -48,3 +48,9 @@
     }
   }
 }
+
+.navbar__component.navbar-light {
+  .nav-link {
+    color: $brand-color-tertiary;
+  }
+}

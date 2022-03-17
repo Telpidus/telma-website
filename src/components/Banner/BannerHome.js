@@ -7,7 +7,7 @@ function BannerHome(props) {
       <div className="banner-home__container container d-flex justify-content-between">
         <div className="banner-home__content">
           <h1>{props.title}</h1>
-          <h2>{props.subTitle}</h2>
+          <h2 className="color--secondary">{props.subTitle}</h2>
           <Link to={{ pathname: `/${props.link}` }}>
             <button className="button-primary" aria-label={props.buttonLabel}>
               {props.buttonLabel}

@@ -5,11 +5,11 @@
   flex-direction: column;
   color: $text-color !important;
   padding: 30px 20px;
-  min-height: 200px;
+  min-height: 250px;
   border-radius: 10px;
   box-shadow: 0px 6px 10px #00000040;
   transition: all 0.2s;
-  border-top: 3px solid $brand-color-tertiary;
+  border-top: 3px solid $brand-color-quaternary;
 
   a {
     color: $text-color;
@@ -36,8 +36,11 @@
 
 .simple-card__title {
   color: $text-color;
+  margin-bottom: 30px;
 }
 
 .simple-card__info {
   font-size: 14px;
+  margin-bottom: 0;
+  margin-top: auto;
 }
