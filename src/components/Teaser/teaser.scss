@@ -1,0 +1,27 @@
+$gray: #c4c4c4;
+.teaser--left {
+  background-color: transparentize($gray, 0.75);
+}
+
+.teaser__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .teaser__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .teaser--right {
+    .teaser__image {
+      order: 1;
+    }
+
+    .teaser__content {
+      order: 2;
+    }
+  }
+}

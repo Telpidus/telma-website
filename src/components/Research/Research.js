@@ -10,7 +10,7 @@ import bannerimage from "../../assets/banner_contact_hands.webp";
 import teasers from "../../data/research.js";
 import publications from "../../data/publications";
 import collaborations from "../../data/collaborations";
-import telmaResume from "../../assets/telma_resume.pdf";
+import telmaResume from "../../assets/telma_laurentino_CV.pdf";
 
 const teasersArray = teasers.map((data) => (
   <Col md={12} key={data.id}>
@@ -68,10 +68,10 @@ function Workshops() {
         anchorLabel="Publications"
         downloadText="Download CV"
         pdf={telmaResume}
-        pdfName="telma_resume.pdf"
+        pdfName="telma_laurentino_CV.pdf"
       />
+      {teasersArray}
       <Container>
-        {teasersArray}
         <Row id="publications" className="mt-5">
           <div className="col-md-12">
             <h3>Scientific publications</h3>

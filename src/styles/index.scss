@@ -1,47 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 @import "~bootstrap/scss/bootstrap";
 @import "./variables";
 @import "./buttons";
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Ubuntu", sans-serif;
 }
 
 .logo {
   width: 60px;
-}
-
-.banner-image {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 700px;
-  background-size: cover;
-  background-position: center left;
-  background-image: url(../assets/banner.png);
-  padding: 20px;
-  margin-bottom: 70px;
-
-  .banner-home__content {
-    max-width: 600px;
-  }
-
-  h1 {
-    font-size: 80px;
-  }
-  h2 {
-    font-size: 48px;
-  }
 }
 
 a {
@@ -59,4 +38,5 @@ a {
 img {
   width: auto;
   max-width: 100%;
+  height: auto;
 }

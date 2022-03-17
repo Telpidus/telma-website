@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./banner-image.scss";
 
 function BannerImage(props) {
   return (
     <section className="banner-image">
-      <div className="container d-flex justify-content-between">
+      <div className="banner-image__wrapper container d-flex justify-content-between">
         <div className="banner-image__content">
           <h2>{props.title}</h2>
           <p>{props.description}</p>

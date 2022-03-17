@@ -7,13 +7,20 @@
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  width: 300px;
+  max-width: 360px;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.01);
+  }
 }
+
 .blog-card__img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
+
 .blog-card__body {
   display: flex;
   flex-direction: column;
@@ -32,6 +39,12 @@
   -webkit-box-orient: vertical;
   color: $text-color-secondary;
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .blog-card {
+    margin: 0 auto;
+  }
 }
 
 .tag {

@@ -3,18 +3,18 @@ import BlogCard from "./BlogCard";
 import ToText from "../../utils/ToText";
 import axios from "axios";
 import { Row, Col } from "react-bootstrap";
+import DotLoader from "react-spinners/DotLoader";
 
 function BlogContent() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   //we can change this url after
-  const DEV_TO_URL =
+  const MEDIUM_URL =
     "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@telma.laurentino";
 
   const getPosts = async () => {
     try {
-      const result = axios.get(DEV_TO_URL).then((res) => {
-        console.log(res);
+      const result = axios.get(MEDIUM_URL).then((res) => {
         return res.data.items;
       });
       return result;
@@ -31,7 +31,7 @@ function BlogContent() {
   }, []);
 
   const blogCardsArray = posts.map((post) => (
-    <Col md={4} className="project-card" key={post.guid}>
+    <Col lg={4} md={6} sm={12} className="project-card" key={post.guid}>
       <BlogCard
         imgPath={post.thumbnail}
         link={post.link}
@@ -41,15 +41,15 @@ function BlogContent() {
     </Col>
   ));
 
-  if (!loading) {
-    return (
-      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        {blogCardsArray}
-      </Row>
-    );
-  } else {
-    return <div>Getting coffee ⌛...</div>;
-  }
+  return (
+    <Row style={{ justifyContent: "center", minHeight: "200px" }}>
+      {loading ? (
+        <DotLoader color={"#007e87"} loading={loading} size={100} />
+      ) : (
+        blogCardsArray
+      )}
+    </Row>
+  );
 }
 
 export default BlogContent;

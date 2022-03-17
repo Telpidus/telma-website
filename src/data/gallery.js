@@ -28,33 +28,37 @@ const photos = [
   },
   {
     id: 4,
+    src: circle,
+    alt: "",
+    url: "https://www.instagram.com/p/CY7qguRJVeA/",
+    description: "hello",
+  },
+  {
+    id: 5,
+    src: whiteflower,
+    alt: "",
+    url: "https://www.instagram.com/p/CY7rCwspuqS/",
+    description: "Cistus ladanifer",
+  },
+  {
+    id: 6,
     src: beepurple,
     alt: "",
     url: "https://www.instagram.com/p/CY7tUPdp6xm/",
     description: "hello",
   },
   {
-    id: 5,
-    src: "https://source.unsplash.com/epcsn8Ed8kY/1200x1600",
-    alt: "",
-    description: "hello",
-  },
-  {
-    id: 6,
-    src: "https://source.unsplash.com/NQSWvyVRIJk/1600x1200",
-    alt: "",
-    description: "hello",
-  },
-  {
     id: 7,
-    src: "https://source.unsplash.com/zh7GEuORbUw/1200x1600",
+    src: whiteflower,
     alt: "",
-    description: "hello",
+    url: "https://www.instagram.com/p/CY7rCwspuqS/",
+    description: "Cistus ladanifer",
   },
   {
     id: 8,
-    src: "https://source.unsplash.com/PpOHJezOalU/1600x1200",
+    src: beepurple,
     alt: "",
+    url: "https://www.instagram.com/p/CY7tUPdp6xm/",
     description: "hello",
   },
   {
@@ -65,9 +69,11 @@ const photos = [
   },
   {
     id: 10,
-    src: "https://source.unsplash.com/I1ASdgphUH4/1600x1200",
+    src: moth,
     alt: "",
-    description: "hello",
+    url: "https://www.instagram.com/p/CZBT0_hL3Si/",
+    description:
+      "One of many wonderful moths that would fill Kibale’s nights with awe",
   },
 ];
 

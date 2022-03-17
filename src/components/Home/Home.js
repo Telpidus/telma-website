@@ -1,5 +1,4 @@
 import React, { useLayoutEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import Teaser from "../Teaser/Teaser";
 import BannerHome from "../Banner/BannerHome";
 import Banner from "../Banner/Banner";
@@ -13,20 +12,18 @@ function Home() {
     window.scrollTo(0, 0);
   });
   const teasersArray = home.map((data) => (
-    <Row key={data.id}>
-      <Col md={12} className="team-card">
-        <Teaser
-          title={data.title}
-          description={data.description}
-          imgPath={data.img}
-          buttonTextFirst={data.button1}
-          buttonTextSecond={data.button2}
-          imageRight={data.pictureRight}
-          linkFirst={data.link1}
-          linkSecond={data.link2}
-        />
-      </Col>
-    </Row>
+    <div key={data.id}>
+      <Teaser
+        title={data.title}
+        description={data.description}
+        imgPath={data.img}
+        buttonTextFirst={data.button1}
+        buttonTextSecond={data.button2}
+        imageRight={data.pictureRight}
+        linkFirst={data.link1}
+        linkSecond={data.link2}
+      />
+    </div>
   ));
   return (
     <div>
@@ -38,7 +35,7 @@ function Home() {
         imgPath={Telma}
         link="about"
       />
-      <Container className="home-section">{teasersArray}</Container>
+      {teasersArray}
       <Banner
         backgroundImage={bannerimage}
         buttonLabel="Email me"
