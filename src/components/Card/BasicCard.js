@@ -12,7 +12,7 @@ function BasicCard(props) {
         rel="noopener noreferrer"
         className="basic-card__link"
       >
-        <h3>{props.title}</h3>
+        <h4>{props.title}</h4>
       </a>
       <p className="basic-card__info">{props.author}</p>
       <div>

@@ -8,9 +8,9 @@ function Teaser(props) {
       <div className="teaser teaser--right">
         <div className="teaser__wrapper container">
           <div className="teaser__content">
-            <h2>{props.title}</h2>
+            <h2 className="color--secondary">{props.title}</h2>
             {props.subtitle ? (
-              <a href={props.url}>
+              <a className="teaser__link" href={props.url}>
                 <h4>{props.subtitle}</h4>{" "}
               </a>
             ) : null}
@@ -55,9 +55,9 @@ function Teaser(props) {
             className="teaser__image"
           />
           <div className="teaser__content">
-            <h2>{props.title}</h2>
+            <h2 className="color--secondary">{props.title}</h2>
             {props.subtitle ? (
-              <a href={props.url}>
+              <a className="teaser__link" href={props.url}>
                 <h4>{props.subtitle}</h4>{" "}
               </a>
             ) : null}

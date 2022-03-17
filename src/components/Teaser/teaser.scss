@@ -9,6 +9,12 @@ $gray: #c4c4c4;
   align-items: center;
 }
 
+.teaser__link {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 @media (max-width: 768px) {
   .teaser__wrapper {
     flex-wrap: wrap;
