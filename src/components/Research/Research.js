@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner";
 import Teaser from "../Teaser/Teaser";
 import BasicCard from "../Card/BasicCard";
 import SimpleCard from "../Card/SimpleCard";
+import Etics from "./Etics";
 import { Row, Col, Container } from "react-bootstrap";
 import observingImage from "../../assets/Home/observing.png";
 import bannerimage from "../../assets/banner_contact_hands.webp";
@@ -88,6 +89,7 @@ function Workshops() {
         <Row className="mt-5">
           <div className="col-md-12">
             <h3 className="color--secondary">Publication ethics</h3>
+            <Etics />
           </div>
         </Row>
       </Container>
