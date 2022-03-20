@@ -13,8 +13,13 @@
   color: white;
 }
 
-@media (max-width: 768px) {
-  .banner-home__container {
-    flex-wrap: wrap;
-  }
+.banner__title {
+  font-weight: 700;
+}
+
+.banner__title {
+  font-size: 48px;
+}
+.banner__description {
+  font-size: 18px;
 }

@@ -15,13 +15,14 @@ function BannerHome(props) {
             </button>
           </Link>
         </div>
-        <img
-          className="banner-home__image"
-          src={props.imgPath}
-          alt={props.imgAlt}
-          width="550"
-          height="550"
-        ></img>
+        <div className="banner-home__image">
+          <img
+            src={props.imgPath}
+            alt={props.imgAlt}
+            width="550"
+            height="550"
+          ></img>
+        </div>
       </div>
     </section>
   );

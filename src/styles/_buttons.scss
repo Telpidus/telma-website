@@ -66,6 +66,7 @@ $button-height: 48px;
   }
 }
 
-.button-secondary + .button-secondary {
-  margin-left: 30px;
+.button-wrapper {
+  display: flex;
+  gap: 30px;
 }
