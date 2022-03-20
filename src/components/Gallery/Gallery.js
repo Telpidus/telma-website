@@ -1,7 +1,6 @@
 import React, { useLayoutEffect } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
-import { Row } from "react-bootstrap";
 import observingImage from "../../assets/Home/observing.png";
 import bannerimage from "../../assets/banner_contact_lizard.webp";
 import photos from "../../data/gallery";
