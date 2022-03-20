@@ -43,7 +43,9 @@ function BannerImage(props) {
             ) : null}
           </div>
         </div>
-        <img src={props.imgPath} alt={props.imgAlt}></img>
+        <div>
+          <img src={props.imgPath} alt={props.imgAlt}></img>
+        </div>
       </div>
     </section>
   );

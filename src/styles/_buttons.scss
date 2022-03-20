@@ -68,6 +68,7 @@ $button-height: 48px;
 
 .button-wrapper {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
