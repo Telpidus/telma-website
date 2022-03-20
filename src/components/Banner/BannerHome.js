@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./banner-home.scss";
 
 function BannerHome(props) {
   return (
     <section className="banner-home">
-      <div className="banner-home__container container d-flex justify-content-between">
+      <div className="banner-home__container container">
         <div className="banner-home__content">
           <h1>{props.title}</h1>
           <h2 className="color--secondary">{props.subTitle}</h2>
@@ -15,10 +16,11 @@ function BannerHome(props) {
           </Link>
         </div>
         <img
+          className="banner-home__image"
           src={props.imgPath}
           alt={props.imgAlt}
-          width="600"
-          height="600"
+          width="550"
+          height="550"
         ></img>
       </div>
     </section>
@@ -26,5 +28,3 @@ function BannerHome(props) {
 }
 
 export default BannerHome;
-
-// <section className={`wrapper searchDiv ${props.title}`}>
