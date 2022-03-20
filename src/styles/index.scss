@@ -41,6 +41,14 @@ img {
   height: auto;
 }
 
+.color--primary {
+  color: $brand-color;
+}
+
 .color--secondary {
   color: $brand-color-secondary;
+}
+
+.bg-color-gray {
+  background-color: transparentize($gray, 0.75);
 }

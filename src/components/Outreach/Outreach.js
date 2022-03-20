@@ -13,7 +13,7 @@ import telmaResume from "../../assets/telma_laurentino_CV.pdf";
 import "./outreach.scss";
 
 const mediaArray = mediaContent.map((item) => (
-  <Col lg={4} md={6} sm={12} key={item.id}>
+  <Col lg={4} md={6} sm={12} key={item.id} className="mb-5">
     <BoxCard
       url={item.url}
       title={item.title}
@@ -25,7 +25,7 @@ const mediaArray = mediaContent.map((item) => (
 ));
 
 const articlesArray = articles.map((article) => (
-  <Col lg={4} md={6} sm={12} key={article.id}>
+  <Col lg={4} md={6} sm={12} key={article.id} className="mb-5">
     <BlogCard
       imgPath={article.image}
       link={article.url}
@@ -52,16 +52,52 @@ function Outreach() {
         pdf={telmaResume}
         pdfName="telma_laurentino_CV.pdf"
       />
-      <Container>
+      <div className="bg-color-gray pt-5 pb-5">
+        <Row>
+          <div className="col-md-12 text-center ">
+            <h2 className="mb-2 color--secondary">evALLution</h2>
+            <h5 className="color--primary mb-5">
+              translating evolution into touch
+            </h5>
+          </div>
+        </Row>
         <YoutubeEmbed embedId="4o3JLsXH12w?t=10" />
+        <Row>
+          <div className="col-md-12 text-center ">
+            <p className="container mt-5">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old. Richard McClintock, a Latin
+              professor at Hampden-Sydney College in Virginia.{" "}
+            </p>
+            <p>
+              Know more about the project with our
+              <a href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1">
+                article
+              </a>{" "}
+            </p>
+          </div>
+        </Row>
+      </div>
+      <Container>
         <Row id="articles">
-          <h3>Science for ALL</h3>
+          <h2 className="margin-top--large mb-2 color--secondary">
+            Science for ALL
+          </h2>
+          <h5 className="color--primary mb-5">
+            outreach articles I wrote for the general public
+          </h5>
         </Row>
         <Row>{articlesArray}</Row>
         <Row>
-          <h3>Media Features</h3>
+          <h2 className="margin-top--large mb-2 color--secondary">
+            Media Features
+          </h2>
+          <h5 className="color--primary mb-5">
+            articles written about my work
+          </h5>
         </Row>
-        <Row>{mediaArray}</Row>
+        <Row className="mb-5">{mediaArray}</Row>
       </Container>
 
       <Banner

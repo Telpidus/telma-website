@@ -73,22 +73,24 @@ function Workshops() {
       />
       {teasersArray}
       <Container>
-        <Row id="publications" className="mt-5">
+        <Row id="publications" className="margin-top--large">
           <div className="col-md-12">
-            <h3 className="color--secondary">Scientific publications</h3>
-            <h4>First authorships</h4>
+            <h2 className="color--secondary">Scientific publications</h2>
+            <h3 className="mt-5 mb-4">First authorships</h3>
           </div>
         </Row>
         {publicationsArray}
-        <Row className="mt-5">
+        <Row>
           <div className="col-md-12">
-            <h4>Collaborations</h4>
+            <h3 className="mt-5 mb-4">Collaborations</h3>
           </div>
         </Row>
         <Row>{collaborationsArray}</Row>
-        <Row className="mt-5">
+        <Row className="mb-5">
           <div className="col-md-12">
-            <h3 className="color--secondary">Publication ethics</h3>
+            <h2 className="color--secondary margin-top--large">
+              Publication ethics
+            </h2>
             <Etics />
           </div>
         </Row>

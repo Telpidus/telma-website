@@ -14,7 +14,7 @@ function Teaser(props) {
                 <h4>{props.subtitle}</h4>{" "}
               </a>
             ) : null}
-            <p>{props.description}</p>
+            <p className="mt-3">{props.description}</p>
             <div className="button-wrapper">
               {props.buttonTextFirst ? (
                 <Link
@@ -65,7 +65,7 @@ function Teaser(props) {
                 <h4>{props.subtitle}</h4>{" "}
               </a>
             ) : null}
-            <p>{props.description}</p>
+            <p className="mt-3">{props.description}</p>
             <div className="button-wrapper">
               {props.buttonTextFirst ? (
                 <Link

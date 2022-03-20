@@ -9,7 +9,7 @@ function BannerImage(props) {
         <div className="banner-image__content">
           <h2 className="color--secondary">{props.title}</h2>
           <p>{props.description}</p>
-          <div className="button-wrapper">
+          <div className="button-wrapper mt-5">
             {props.anchorLabel ? (
               <a href={props.anchor} className="button-secondary">
                 {props.anchorLabel}
