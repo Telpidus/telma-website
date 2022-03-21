@@ -6,18 +6,31 @@ import writter from "../../assets/writter.png";
 
 function AboutTeaser() {
   return (
-    <Row>
+    <Row className="margin-top--large pb-5">
       <Col lg={4} md={12} className="text-center">
-        <img src={researcher} alt="Tree of Life Illustration" />
-        <h5>Researcher</h5>
+        <div className="about-teaser__image">
+          <img src={researcher} alt="Tree of Life Illustration" />
+        </div>
+        <h3 className="color--quarternary fw-bold">Researcher</h3>
       </Col>
       <Col lg={4} md={12} className="text-center">
-        <img src={translating} alt="Tree of Life Illustration" />
-        <h5>Educator</h5>
+        <div className="about-teaser__image">
+          <img src={translating} alt="Tree of Life Illustration" />
+        </div>
+
+        <h3 className="color--quarternary fw-bold">Educator</h3>
       </Col>
       <Col lg={4} md={12} className="text-center">
-        <img src={writter} alt="Tree of Life Illustration" />
-        <h5>Writter</h5>
+        <div className="about-teaser__image">
+          <img
+            src={writter}
+            alt="Tree of Life Illustration"
+            width="355"
+            height="345"
+          />
+        </div>
+
+        <h3 className="color--quarternary fw-bold">Writter</h3>
       </Col>
     </Row>
   );
