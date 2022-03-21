@@ -56,7 +56,7 @@ function Outreach() {
         <Row>
           <div className="col-md-12 text-center ">
             <h2 className="mb-2 color--secondary">evALLution</h2>
-            <h5 className="color--primary mb-5">
+            <h5 className="color--quarternary mb-5">
               translating evolution into touch
             </h5>
           </div>
@@ -71,7 +71,7 @@ function Outreach() {
               professor at Hampden-Sydney College in Virginia.{" "}
             </p>
             <p>
-              Know more about the project with our
+              Know more about the project with our &nbsp;
               <a href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1">
                 article
               </a>{" "}
@@ -84,7 +84,7 @@ function Outreach() {
           <h2 className="margin-top--large mb-2 color--secondary">
             Science for ALL
           </h2>
-          <h5 className="color--primary mb-5">
+          <h5 className="color--quarternary mb-5">
             outreach articles I wrote for the general public
           </h5>
         </Row>
@@ -93,7 +93,7 @@ function Outreach() {
           <h2 className="margin-top--large mb-2 color--secondary">
             Media Features
           </h2>
-          <h5 className="color--primary mb-5">
+          <h5 className="color--quarternary mb-5">
             articles written about my work
           </h5>
         </Row>

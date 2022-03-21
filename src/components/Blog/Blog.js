@@ -17,7 +17,7 @@ function Blog() {
         title="Writtings"
         description={
           <Fragment>
-            <span className="color--primary d-block">
+            <span className="color--quarternary d-block">
               Follow the thoughts and news from this branch of the Tree of Life
             </span>{" "}
             <br />
@@ -30,14 +30,16 @@ function Blog() {
         }
         imgPath={embodyingImage}
       />
-      <Container>
-        <Row className="mt-5">
-          <div className="col-md-12">
+
+      <Row className="bg-color-gray pt-5">
+        <div className="col-md-12">
+          <Container>
             <h2 className="color--secondary mb-4">My Blog</h2>
-          </div>
-        </Row>
-        {BlogContent()}
-      </Container>
+            {BlogContent()}
+          </Container>
+        </div>
+      </Row>
+
       <Banner
         backgroundImage={bannerimage}
         buttonLabel="Email me"

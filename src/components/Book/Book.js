@@ -24,10 +24,10 @@ function Book() {
         }
         imgPath={embodyingImage}
       />
-      <Container>
-        <Row>
-          <Col md={12}>
-            <p>
+      <Row className="bg-color-gray">
+        <Col md={12}>
+          <Container>
+            <p className="py-5 mb-0">
               “My chest was full because I was experiencing something that I was
               sure about, that I dedicated my life to studying, but never felt
               that deeply before: I was but one branch in the tree of life and
@@ -36,10 +36,19 @@ function Book() {
               insignificant, but no. My body and mind were filled by a new and
               unabashed sense of belonging.”
             </p>
-          </Col>
-        </Row>
+          </Container>
+        </Col>
+      </Row>
+      <Container className="margin-top--large">
         <BookSummary />
-        <Carousel data={readers} />
+        <Row className="mb-5">
+          <Col md={12}>
+            <h2 className="margin-top--large mb-2 color--secondary">
+              Students have said:
+            </h2>
+          </Col>
+          <Carousel data={readers} />
+        </Row>
       </Container>
 
       <Banner
