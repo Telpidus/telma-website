@@ -40,7 +40,7 @@ function Home() {
         backgroundImage={bannerimage}
         buttonLabel="Email me"
         title="Let’s connect!"
-        text="For work enquiries and creative collabrations"
+        text="For work enquiries and creative collaborations"
       />
     </div>
   );

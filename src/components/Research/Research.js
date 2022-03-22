@@ -7,7 +7,7 @@ import SimpleCard from "../Card/SimpleCard";
 import Etics from "./Etics";
 import { Row, Col, Container } from "react-bootstrap";
 import observingImage from "../../assets/Home/observing.png";
-import bannerimage from "../../assets/banner_contact_hands.webp";
+import bannerimage from "../../assets/banner_contact_lizard.webp";
 import teasers from "../../data/research.js";
 import publications from "../../data/publications";
 import collaborations from "../../data/collaborations";
@@ -100,7 +100,7 @@ function Workshops() {
         backgroundImage={bannerimage}
         buttonLabel="Email me"
         title="Let’s connect!"
-        text="For work enquiries and creative collabrations"
+        text="For work enquiries and creative collaborations"
       />
     </div>
   );

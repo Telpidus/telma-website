@@ -31,14 +31,12 @@ function Blog() {
         imgPath={embodyingImage}
       />
 
-      <Row className="bg-color-gray pt-5">
-        <div className="col-md-12">
-          <Container>
-            <h2 className="color--secondary mb-4">My Blog</h2>
-            {BlogContent()}
-          </Container>
-        </div>
-      </Row>
+      <div className="bg-color-gray pt-5">
+        <Container>
+          <h2 className="color--secondary mb-4">My Blog</h2>
+          {BlogContent()}
+        </Container>
+      </div>
 
       <Banner
         backgroundImage={bannerimage}
