@@ -3,7 +3,7 @@ import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import bannerimage from "../../assets/banner_contact_lizard.webp";
 import BlogContent from "./BlogContent";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 import embodyingImage from "../../assets/Home/embodying.png";
 
@@ -31,14 +31,12 @@ function Blog() {
         imgPath={embodyingImage}
       />
 
-      <Row className="bg-color-gray pt-5">
-        <div className="col-md-12">
-          <Container>
-            <h2 className="color--secondary mb-4">My Blog</h2>
-            {BlogContent()}
-          </Container>
-        </div>
-      </Row>
+      <div className="bg-color-gray pt-5">
+        <Container>
+          <h2 className="color--secondary mb-4">My Blog</h2>
+          {BlogContent()}
+        </Container>
+      </div>
 
       <Banner
         backgroundImage={bannerimage}

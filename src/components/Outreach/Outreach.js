@@ -53,31 +53,30 @@ function Outreach() {
         pdfName="telma_laurentino_CV.pdf"
       />
       <div className="bg-color-gray pt-5 pb-5">
-        <Row>
+        <Container>
           <div className="col-md-12 text-center ">
             <h2 className="mb-2 color--secondary">evALLution</h2>
             <h5 className="color--quarternary mb-5">
               translating evolution into touch
             </h5>
           </div>
-        </Row>
-        <YoutubeEmbed embedId="4o3JLsXH12w?t=10" />
-        <Row>
-          <div className="col-md-12 text-center ">
-            <p className="container mt-5">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College in Virginia.{" "}
-            </p>
-            <p>
-              Know more about the project with our &nbsp;
-              <a href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1">
-                article
-              </a>{" "}
-            </p>
-          </div>
-        </Row>
+          <YoutubeEmbed embedId="4o3JLsXH12w?t=10" />
+        </Container>
+
+        <div className="text-center ">
+          <p className="container mt-5">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia.{" "}
+          </p>
+          <p>
+            Know more about the project with our &nbsp;
+            <a href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1">
+              article
+            </a>{" "}
+          </p>
+        </div>
       </div>
       <Container>
         <Row id="articles">
@@ -104,7 +103,7 @@ function Outreach() {
         backgroundImage={bannerimage}
         buttonLabel="Email me"
         title="Let’s connect!"
-        text="For work enquiries and creative collabrations"
+        text="For work enquiries and creative collaborations"
       />
     </div>
   );

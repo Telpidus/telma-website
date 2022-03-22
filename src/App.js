@@ -7,6 +7,7 @@ import Blog from "./components/Blog/Blog";
 import Book from "./components/Book/Book";
 import About from "./components/About/About";
 import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </main>
+        <Footer />
       </Router>
     </div>
   );
