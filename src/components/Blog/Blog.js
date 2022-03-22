@@ -3,7 +3,7 @@ import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import bannerimage from "../../assets/banner_contact_lizard.webp";
 import BlogContent from "./BlogContent";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 import embodyingImage from "../../assets/Home/embodying.png";
 
