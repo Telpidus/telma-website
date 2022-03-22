@@ -3,15 +3,16 @@
   display: flex;
   align-items: center;
   width: 100%;
-  height: 700px;
+  min-height: 700px;
   background-size: cover;
   background-position: center left;
   background-image: url(../../assets/banner.png);
   padding: 20px;
-  margin-bottom: 70px;
 
   .banner-image__content {
     max-width: 600px;
+    margin-top: 120px;
+    margin-bottom: 70px;
   }
 
   h2 {

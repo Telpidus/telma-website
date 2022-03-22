@@ -9,39 +9,43 @@ function BannerImage(props) {
         <div className="banner-image__content">
           <h2 className="color--secondary">{props.title}</h2>
           <p>{props.description}</p>
-          {props.anchorLabel ? (
-            <a href={props.anchor} className="button-secondary">
-              {props.anchorLabel}
-            </a>
-          ) : null}
+          <div className="button-wrapper mt-5">
+            {props.anchorLabel ? (
+              <a href={props.anchor} className="button-secondary">
+                {props.anchorLabel}
+              </a>
+            ) : null}
 
-          {props.buttonTextFirst ? (
-            <Link
-              to={{ pathname: `/${props.linkFirst}` }}
-              className="button-secondary"
-            >
-              {props.buttonTextFirst}
-            </Link>
-          ) : null}
-          {props.buttonTextSecond ? (
-            <Link
-              to={{ pathname: `/${props.linkSecond}` }}
-              className="button-secondary"
-            >
-              {props.buttonTextSecond}
-            </Link>
-          ) : null}
-          {props.downloadText ? (
-            <a
-              href={props.pdf}
-              className="button-secondary"
-              download={props.pdfName}
-            >
-              {props.downloadText}
-            </a>
-          ) : null}
+            {props.buttonTextFirst ? (
+              <Link
+                to={{ pathname: `/${props.linkFirst}` }}
+                className="button-secondary"
+              >
+                {props.buttonTextFirst}
+              </Link>
+            ) : null}
+            {props.buttonTextSecond ? (
+              <Link
+                to={{ pathname: `/${props.linkSecond}` }}
+                className="button-secondary"
+              >
+                {props.buttonTextSecond}
+              </Link>
+            ) : null}
+            {props.downloadText ? (
+              <a
+                href={props.pdf}
+                className="button-secondary"
+                download={props.pdfName}
+              >
+                {props.downloadText}
+              </a>
+            ) : null}
+          </div>
         </div>
-        <img src={props.imgPath} alt={props.imgAlt}></img>
+        <div>
+          <img src={props.imgPath} alt={props.imgAlt}></img>
+        </div>
       </div>
     </section>
   );

@@ -14,32 +14,34 @@ function Teaser(props) {
                 <h4>{props.subtitle}</h4>{" "}
               </a>
             ) : null}
-            <p>{props.description}</p>
-            {props.buttonTextFirst ? (
-              <Link
-                to={{ pathname: `/${props.linkFirst}` }}
-                className="button-secondary"
-              >
-                {props.buttonTextFirst}
-              </Link>
-            ) : null}
-            {props.buttonTextSecond ? (
-              <Link
-                to={{ pathname: `/${props.linkSecond}` }}
-                className="button-secondary"
-              >
-                {props.buttonTextSecond}
-              </Link>
-            ) : null}
+            <p className="mt-3">{props.description}</p>
+            <div className="button-wrapper">
+              {props.buttonTextFirst ? (
+                <Link
+                  to={{ pathname: `/${props.linkFirst}` }}
+                  className="button-secondary"
+                >
+                  {props.buttonTextFirst}
+                </Link>
+              ) : null}
+              {props.buttonTextSecond ? (
+                <Link
+                  to={{ pathname: `/${props.linkSecond}` }}
+                  className="button-secondary"
+                >
+                  {props.buttonTextSecond}
+                </Link>
+              ) : null}
+            </div>
           </div>
-
-          <img
-            src={props.imgPath}
-            alt="teaser with icon and text"
-            width="360"
-            height="360"
-            className="teaser__image"
-          />
+          <div className="teaser__image">
+            <img
+              src={props.imgPath}
+              alt="teaser with icon and text"
+              width="360"
+              height="360"
+            />
+          </div>
         </div>
       </div>
     );
@@ -47,13 +49,15 @@ function Teaser(props) {
     return (
       <div className="teaser teaser--left">
         <div className="teaser__wrapper container">
-          <img
-            src={props.imgPath}
-            alt="teaser with icon and text"
-            width="360"
-            height="360"
-            className="teaser__image"
-          />
+          <div className="teaser__image">
+            <img
+              src={props.imgPath}
+              alt="teaser with icon and text"
+              width="360"
+              height="360"
+              className="teaser__image"
+            />
+          </div>
           <div className="teaser__content">
             <h2 className="color--secondary">{props.title}</h2>
             {props.subtitle ? (
@@ -61,23 +65,25 @@ function Teaser(props) {
                 <h4>{props.subtitle}</h4>{" "}
               </a>
             ) : null}
-            <p>{props.description}</p>
-            {props.buttonTextFirst ? (
-              <Link
-                to={{ pathname: `/${props.linkFirst}` }}
-                className="button-secondary"
-              >
-                {props.buttonTextFirst}
-              </Link>
-            ) : null}
-            {props.buttonTextSecond ? (
-              <Link
-                to={{ pathname: `/${props.linkSecond}` }}
-                className="button-secondary"
-              >
-                {props.buttonTextSecond}
-              </Link>
-            ) : null}
+            <p className="mt-3">{props.description}</p>
+            <div className="button-wrapper">
+              {props.buttonTextFirst ? (
+                <Link
+                  to={{ pathname: `/${props.linkFirst}` }}
+                  className="button-secondary"
+                >
+                  {props.buttonTextFirst}
+                </Link>
+              ) : null}
+              {props.buttonTextSecond ? (
+                <Link
+                  to={{ pathname: `/${props.linkSecond}` }}
+                  className="button-secondary"
+                >
+                  {props.buttonTextSecond}
+                </Link>
+              ) : null}
+            </div>
           </div>
         </div>
       </div>

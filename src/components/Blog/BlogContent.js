@@ -31,7 +31,7 @@ function BlogContent() {
   }, []);
 
   const blogCardsArray = posts.map((post) => (
-    <Col lg={4} md={6} sm={12} className="project-card" key={post.guid}>
+    <Col lg={4} md={6} sm={12} className="project-card mb-5" key={post.guid}>
       <BlogCard
         imgPath={post.thumbnail}
         link={post.link}
