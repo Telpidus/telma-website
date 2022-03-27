@@ -1,14 +1,14 @@
-.about {
+.about__container {
   position: relative;
   margin-top: 150px;
 }
 
 @media (min-width: 992px) {
-  .about-description {
+  .about__description {
     text-align: right;
     margin-top: 250px;
   }
-  .about-title {
+  .about__title {
     font-size: 58px;
     position: absolute;
     right: 0;
@@ -17,7 +17,7 @@
 }
 
 @media (min-width: 1468px) {
-  .about-title {
+  .about__title {
     font-size: 86px;
   }
 }
@@ -25,4 +25,10 @@
 .about-teaser__image {
   max-width: 300px;
   margin: auto;
+}
+
+.about {
+  .banner {
+    height: 700px;
+  }
 }

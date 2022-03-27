@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="about-description">
+    <div className="about__description">
       <p>
         I’m an evolutionary biologist, studying how species evolve and adapt to
         different environments!
