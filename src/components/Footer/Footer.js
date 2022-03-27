@@ -18,8 +18,11 @@ function Footer() {
           </a>
         </li>
         <li className="social-icons">
-          <a href="https://www.linkedin.com/" style={{ color: "white" }}>
-            <i className="fab fa-linkedin-in"></i>
+          <a
+            href="https://www.instagram.com/tgl_from_forest/"
+            style={{ color: "white" }}
+          >
+            <i className="fab fa-instagram"></i>
           </a>
         </li>
         <li className="social-icons">
