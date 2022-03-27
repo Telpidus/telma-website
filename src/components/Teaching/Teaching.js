@@ -22,19 +22,23 @@ function Teaching() {
         description="I want everyone to be able to learn about the evolution of life on our planet! "
         imgPath={translatingImage}
       />
+      <div className="bg-color-gray pt-5 pb-5">
+        <Container>
+          <Row>
+            <Col md={12}>
+              <h2 className="margin-top--large mb-5 color--secondary text-center">
+                Teaching and Inspiring
+              </h2>
+            </Col>
+          </Row>
+          <Row className="justify-content-center">
+            <Col md={10}>
+              <TeachingDescription />
+            </Col>
+          </Row>
+        </Container>
+      </div>
       <Container>
-        <Row>
-          <Col md={12}>
-            <h2 className="margin-top--large mb-5 color--secondary text-center">
-              Teaching and Inspiring
-            </h2>
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col md={10}>
-            <TeachingDescription />
-          </Col>
-        </Row>
         <Row>
           <Col md={12}>
             <h2 className="margin-top--large mb-5 color--secondary text-center">

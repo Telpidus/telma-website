@@ -72,7 +72,10 @@ function Outreach() {
           </p>
           <p>
             Know more about the project with our &nbsp;
-            <a href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1">
+            <a
+              className="fw-bold"
+              href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1"
+            >
               article
             </a>{" "}
           </p>

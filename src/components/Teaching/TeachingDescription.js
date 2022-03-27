@@ -10,14 +10,20 @@ function TeachingDescription() {
         the classroom and hold the space for an inclusive, diverse and engaging
         learning experience. I do that through 3 personal principles:
       </p>
-      <ul>
-        <li>I flow between teacher and student, talker & listener.</li>
-        <li>
-          {" "}
-          I hold an education space that honors creativity, diversity and
-          belonging!
+      <ul className="font-size-medium mt-5 mb-5 text-center">
+        <li className="mb-3">
+          <i class="fa fa-book color--secondary"></i> I flow between teacher and
+          student, talker & listener.
         </li>
-        <li>I am an arborist, not a builder.</li>
+        <li className="mb-3">
+          <i class="fa fa-heart color--secondary"></i> I hold an education space
+          that honors creativity, diversity and belonging!
+        </li>
+        <li className="mb-3">
+          {" "}
+          <i class="fa fa-tree color--secondary"></i> I am an arborist, not a
+          builder.
+        </li>
       </ul>
       <p>
         I transport the fluidity and non-duality of nature into the classroom.
