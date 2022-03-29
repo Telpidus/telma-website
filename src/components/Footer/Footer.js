@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import kofi from "../../assets/kofi.png";
 import "./footer.scss";
 
 function Footer() {
@@ -13,7 +14,10 @@ function Footer() {
 
       <ul className="footer-icons">
         <li className="social-icons">
-          <a href="https://twitter.com/" style={{ color: "white" }}>
+          <a
+            href="https://twitter.com/TelmaLaurentino"
+            style={{ color: "white" }}
+          >
             <i className="fab fa-twitter"></i>
           </a>
         </li>
@@ -34,6 +38,9 @@ function Footer() {
           </a>
         </li>
       </ul>
+      <a href="https://ko-fi.com/telmagl" target="_blank" rel="noreferrer">
+        <img src={kofi} alt="Kofi button" />
+      </a>
     </Container>
   );
 }

@@ -2,9 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   background-color: #212529;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   z-index: 50;
 }
 
@@ -16,19 +17,26 @@
 }
 .footer-icons {
   list-style-type: none;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .social-icons {
+  font-size: 20px;
   display: inline-block;
-  margin-right: 30px;
 }
 
 @media (max-width: 998px) {
   .footer {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+  }
+
+  .footer-icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
