@@ -41,8 +41,8 @@ function Book() {
         <BookSummary />
         <Row className="mb-5">
           <Col md={12}>
-            <h2 className="margin-top--large mb-2 color--secondary">
-              Students have said:
+            <h2 className="margin-top--large mb-2 color--secondary text-center">
+              Readers have said:
             </h2>
           </Col>
           <Carousel data={readers} />

@@ -4,14 +4,15 @@
 
 .carousel-caption {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  bottom: auto;
+  transform: translateY(25%);
 }
 
 .carousel-indicators [data-bs-target] {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+
+.carousel-description {
+  text-align: justify;
 }

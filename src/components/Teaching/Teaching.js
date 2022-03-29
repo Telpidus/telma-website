@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from "react";
+import React, { Fragment, useLayoutEffect } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import Carousel from "../Carousel/Carousel";
@@ -19,7 +19,22 @@ function Teaching() {
     <div className="teaching-section">
       <BannerImage
         title="Teacher of trees"
-        description="I want everyone to be able to learn about the evolution of life on our planet! "
+        description={
+          <Fragment>
+            <span className="color--quarternary d-block">
+              I want everyone to be able to learn about the evolution of life on
+              our planet!
+            </span>{" "}
+            <br />
+            My teaching is focused on the Tree of Life and on worldviews,
+            represented by trees across many human cultures: I am thus a teacher
+            and student of trees! I am interested in a culturally-responsive
+            education system that provides knowledge that seeds environmental
+            and social transformation. So, much like an arborist, I aim to adapt
+            to the changing seasons and tend to my students as unique,
+            ever-growing, beings."
+          </Fragment>
+        }
         imgPath={translatingImage}
       />
       <div className="bg-color-gray pt-5 pb-5">

@@ -27,8 +27,8 @@ function Gallery() {
     <div className="gallery-section">
       <BannerImage
         title="Witnessing biodiversity"
-        description="capture life with my camera inspires my scientific work.
-          Also get to share the moments that inspired my writtings  "
+        description="My camera is an extension of my interaction with nature, it is how I capture and hold without harming.
+        Photos are my recorded memories of the wonder and stories that cross my path and they give me a chance to share that wonder with others."
         imgPath={observingImage}
         buttonTextFirst="Blog"
         linkFirst="blog"

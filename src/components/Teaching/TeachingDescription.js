@@ -6,23 +6,25 @@ function TeachingDescription() {
   return (
     <div className="teaching-description">
       <p>
-        My work as a teacher and mentor is to bring my acquired knowledge into
-        the classroom and hold the space for an inclusive, diverse and engaging
-        learning experience. I do that through 3 personal principles:
+        When being a teacher and mentor, I believe my work is to bring my
+        acquired knowledge into the room while holding space for an inclusive,
+        diverse and engaging learning experience for all involved.
       </p>
-      <ul className="font-size-medium mt-5 mb-5 text-center">
+      <p>I use three personal guiding principles:</p>
+      <ul className="font-size-medium mt-5 mb-5">
         <li className="mb-3">
           <i class="fa fa-book color--secondary"></i> I flow between teacher and
           student, talker & listener.
         </li>
         <li className="mb-3">
           <i class="fa fa-heart color--secondary"></i> I hold an education space
-          that honors creativity, diversity and belonging!
+          that honors creativity, allows for diversity/discordance and is
+          grounded in belonging.
         </li>
         <li className="mb-3">
           {" "}
-          <i class="fa fa-tree color--secondary"></i> I am an arborist, not a
-          builder.
+          <i class="fa fa-tree color--secondary"></i> My lecture plan is
+          responsive to the learning needs and curiosities of the class
         </li>
       </ul>
       <p>
