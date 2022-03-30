@@ -32,7 +32,12 @@
     bottom: -30px;
   }
 
-  .carousel-inner {
-    padding: 0 30px;
+  .carousel-item {
+    padding: 0 10px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
   }
 }
