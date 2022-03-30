@@ -12,9 +12,9 @@ function About() {
     window.scrollTo(0, 0);
   });
   return (
-    <div>
-      <Container className="about">
-        <h2 className="about-title">Hi, I'm Telma!</h2>
+    <div className="about">
+      <Container className="about__container">
+        <h2 className="about__title">Hi, I'm Telma!</h2>
         <Row>
           <Col lg={8} md={12}>
             <img src={treeOfLife} alt="Tree of Life Illustration" />

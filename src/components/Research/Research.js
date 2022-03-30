@@ -61,8 +61,8 @@ function Workshops() {
     <div className="research-section">
       <BannerImage
         title="Research"
-        description="I wanted to understand biodiversity so... 
-                      I’ve worked with a bunch of ToL branches but my core work has been done with fish and lizards, who I especially love.
+        description="I wanted to understand the evolution of biodiversity so... 
+                      I’ve worked with a bunch of Tree of Life branches but my core work has been done with fish and lizards, who I especially love.
                       Learn about my academic history and see my scientific peer-reviewed publications"
         imgPath={observingImage}
         anchor="#publications"

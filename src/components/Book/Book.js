@@ -26,7 +26,7 @@ function Book() {
       />
       <div className="bg-color-gray">
         <Container>
-          <p className="py-5 mb-0">
+          <p className="py-5 mb-0 font-size-medium">
             “My chest was full because I was experiencing something that I was
             sure about, that I dedicated my life to studying, but never felt
             that deeply before: I was but one branch in the tree of life and
@@ -41,8 +41,8 @@ function Book() {
         <BookSummary />
         <Row className="mb-5">
           <Col md={12}>
-            <h2 className="margin-top--large mb-2 color--secondary">
-              Students have said:
+            <h2 className="margin-top--large mb-2 color--secondary text-center">
+              Readers have said:
             </h2>
           </Col>
           <Carousel data={readers} />

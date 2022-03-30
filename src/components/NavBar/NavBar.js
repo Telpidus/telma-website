@@ -87,6 +87,15 @@ function NavBarComponent() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/book"
+                onClick={() => updateExpanded(false)}
+              >
+                Book
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >

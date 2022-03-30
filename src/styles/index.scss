@@ -52,3 +52,20 @@ img {
 .bg-color-gray {
   background-color: transparentize($gray, 0.75);
 }
+
+.font-size-medium {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.max-width-250 {
+  max-width: 250px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}

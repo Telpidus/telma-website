@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from "react";
+import React, { Fragment, useLayoutEffect } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import YoutubeEmbed from "../Youtube/YoutubeEmbed";
@@ -44,7 +44,19 @@ function Outreach() {
     <div className="outreach-section">
       <BannerImage
         title="Outreach"
-        description="I want everyone to be able to learn about the evolution of life on our planet! "
+        description={
+          <Fragment>
+            <span className="color--quarternary d-block">
+              I believe it is essential for researchers to communicate with the
+              public, which benefits both parties!
+            </span>{" "}
+            <br />I connect with the public through the wonder I feel for
+            evolution and biodiversity, share the knowledge I have acquired in
+            my research, and hope to inspire a sense of belonging in the Tree of
+            Life that awakens our connection to nature, breaking fake barriers
+            between one another, and our planet.
+          </Fragment>
+        }
         imgPath={translatingImage}
         anchor="#articles"
         anchorLabel="Articles"
@@ -65,16 +77,24 @@ function Outreach() {
 
         <div className="text-center ">
           <p className="container mt-5">
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia.{" "}
+            Check out more videos on{" "}
+            <a
+              className="fw-bold"
+              href="https://www.youtube.com/channel/UC-TIlTueriYu7uhmFKI4uGw"
+            >
+              Youtube
+            </a>
+            , all with accessible descriptions for people with blindness.
           </p>
           <p>
-            Know more about the project with our &nbsp;
-            <a href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1">
+            Know more about the project through our{" "}
+            <a
+              className="fw-bold"
+              href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1"
+            >
               article
             </a>{" "}
+            with supplementary accessible descriptions of all data and figures.
           </p>
         </div>
       </div>
