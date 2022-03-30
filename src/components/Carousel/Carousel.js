@@ -11,7 +11,7 @@ function HomeCarousel(props) {
   const carouselArray = props.data.map((slide, i) => (
     <Carousel.Item key={slide.id}>
       <Carousel.Caption>
-        <div>
+        <div className="carousel-description mb-4">
           <i>"{slide.description}"</i>
         </div>
         <div>

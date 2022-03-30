@@ -1,17 +1,43 @@
 .carousel-item {
-  height: 300px;
+  min-height: 300px;
 }
 
 .carousel-caption {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  bottom: auto;
+  transform: translateY(25%);
 }
 
 .carousel-indicators [data-bs-target] {
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+
+.carousel-description {
+  text-align: justify;
+}
+
+@media (max-width: 998px) {
+  .carousel-caption {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    color: #fff;
+    text-align: center;
+    transform: initial;
+  }
+
+  .carousel-indicators {
+    bottom: -30px;
+  }
+
+  .carousel-item {
+    padding: 0 10px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
 }

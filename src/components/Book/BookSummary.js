@@ -7,7 +7,7 @@ function BookSummary() {
   return (
     <Row className="book-summary">
       <Col md={4}>
-        <div>
+        <div className="book-summary__image">
           <img src={bookImage} alt="A love letter from the forest book"></img>
         </div>
       </Col>

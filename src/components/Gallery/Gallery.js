@@ -27,8 +27,8 @@ function Gallery() {
     <div className="gallery-section">
       <BannerImage
         title="Witnessing biodiversity"
-        description="capture life with my camera inspires my scientific work.
-          Also get to share the moments that inspired my writtings  "
+        description="My camera is an extension of my interaction with nature, it is how I capture and hold without harming.
+        Photos are my recorded memories of the wonder and stories that cross my path and they give me a chance to share that wonder with others."
         imgPath={observingImage}
         buttonTextFirst="Blog"
         linkFirst="blog"
@@ -36,11 +36,13 @@ function Gallery() {
         linkSecond="book"
       />
       <div className="masonry">{imagesArray}</div>
-      <div className="mt-5 mb-5">
-        <h2 className="color--secondary text-center">
-          For more photos check my &nbsp;
-          <a href="https://www.instagram.com/tgl_from_forest/">instagram 📸</a>
-        </h2>
+      <div className="mt-5 mb-5 text-center">
+        <a
+          href="https://www.instagram.com/tgl_from_forest/"
+          className="font-size-medium"
+        >
+          More on instagram <i className="fab fa-instagram"></i>tgl_from_forest
+        </a>
       </div>
       <Banner
         backgroundImage={bannerimage}
