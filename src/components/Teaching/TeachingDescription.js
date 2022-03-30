@@ -13,17 +13,17 @@ function TeachingDescription() {
       <p>I use three personal guiding principles:</p>
       <ul className="font-size-medium mt-5 mb-5">
         <li className="mb-3">
-          <i class="fa fa-book color--secondary"></i> I flow between teacher and
-          student, talker & listener.
+          <i className="fa fa-book color--secondary"></i> I flow between teacher
+          and student, talker & listener.
         </li>
         <li className="mb-3">
-          <i class="fa fa-heart color--secondary"></i> I hold an education space
-          that honors creativity, allows for diversity/discordance and is
+          <i className="fa fa-heart color--secondary"></i> I hold an education
+          space that honors creativity, allows for diversity/discordance and is
           grounded in belonging.
         </li>
         <li className="mb-3">
           {" "}
-          <i class="fa fa-tree color--secondary"></i> My lecture plan is
+          <i className="fa fa-tree color--secondary"></i> My lecture plan is
           responsive to the learning needs and curiosities of the class
         </li>
       </ul>

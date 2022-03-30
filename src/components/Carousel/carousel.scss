@@ -1,5 +1,5 @@
 .carousel-item {
-  height: 300px;
+  min-height: 300px;
 }
 
 .carousel-caption {
@@ -15,4 +15,24 @@
 
 .carousel-description {
   text-align: justify;
+}
+
+@media (max-width: 998px) {
+  .carousel-caption {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    color: #fff;
+    text-align: center;
+    transform: initial;
+  }
+
+  .carousel-indicators {
+    bottom: -30px;
+  }
+
+  .carousel-inner {
+    padding: 0 30px;
+  }
 }

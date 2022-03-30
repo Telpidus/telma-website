@@ -41,7 +41,7 @@ function Gallery() {
           href="https://www.instagram.com/tgl_from_forest/"
           className="font-size-medium"
         >
-          More on instagram <i class="fab fa-instagram"></i>tgl_from_forest
+          More on instagram <i className="fab fa-instagram"></i>tgl_from_forest
         </a>
       </div>
       <Banner
