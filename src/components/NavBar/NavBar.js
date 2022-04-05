@@ -25,7 +25,7 @@ function NavBarComponent() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={(navColour ? "sticky" : "navbar", "navbar__component")}
+      className={navColour ? "sticky" : "navbar__component"}
     >
       <Container fluid>
         <Navbar.Brand href="/">
