@@ -32,7 +32,7 @@ function Teaching() {
             education system that provides knowledge that seeds environmental
             and social transformation. So, much like an arborist, I aim to adapt
             to the changing seasons and tend to my students as unique,
-            ever-growing, beings."
+            ever-growing, beings.
           </Fragment>
         }
         imgPath={translatingImage}
