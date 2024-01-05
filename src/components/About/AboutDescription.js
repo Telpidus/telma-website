@@ -4,19 +4,18 @@ function About() {
   return (
     <div className="about__description">
       <p>
-        I’m an evolutionary biologist, studying how species evolve and adapt to
-        different environments!
-      </p>
-      <p>
         <b>
-          In my pursuit to understand the branching of the tree of life, I have
-          worked with several of its branches (but my favourite are reptiles)
+        I’m scientist, communicator and educator.
+        As an evolutionary biologist, I study how species evolve and adapt to
+        environmental change, as a writter and educator I focus on systemic 
+        socio-ecological issues and how they shape our relationship with nature!
         </b>
       </p>
       <p>
-        I was born and raised in Portugal and my research had me moving to
-        Switzerland for my PhD and, currently, to the USA, where I research
-        desert lizards at UCBerkeley, in the Rosenblum Lab.
+          I was born and raised in Portugal, and my research on population genomics 
+          travelled me across 5 continents, where I learned biodiversity from different 
+          species and within different communities. 
+          Reptiles hold a special wonder-full place in my heart!   
       </p>
       <p>
         <b>
@@ -31,9 +30,9 @@ function About() {
       </p>
       <p>
         <b>
-          So, I’m currently working in designing inclusive, culturaly-responsive
-          science courses that kindle a true sense of belonging in the tree of
-          life, for all!
+          Currently, I'm working on designing multisensory and culturaly-responsive
+          education resources that foster complex systemic thinkig and kindle a 
+          true sense of shared ancestry with and belonging to life on Earth.
         </b>
       </p>
     </div>
