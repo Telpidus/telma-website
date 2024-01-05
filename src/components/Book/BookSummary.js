@@ -49,6 +49,7 @@ function BookSummary() {
           >
             Order a signed copy! 
           </a> 
+          </br>
          <p>
          <p>
          <a
