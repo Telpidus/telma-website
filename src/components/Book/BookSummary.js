@@ -51,7 +51,7 @@ function BookSummary() {
           </a> 
          <p>
          <p>
-        </br>
+        <br />
          <a
            href="https://www.goodreads.com/book/show/121707535-a-love-letter-from-the-forest-to-you-through-me"
            className="button-secondary"
