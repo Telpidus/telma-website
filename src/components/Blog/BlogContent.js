@@ -9,12 +9,12 @@ function BlogContent() {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   //we can change this url after
-  const MEDIUM_URL =
+  const SUBSTACK_URL =
     "https://api.rss2json.com/v1/api.json?rss_url=https://telmaglaurentino.substack.com/feed";
 
   const getPosts = async () => {
     try {
-      const result = axios.get(MEDIUM_URL).then((res) => {
+      const result = axios.get(SUBSTACK_URL).then((res) => {
         return res.data.items;
       });
       return result;
@@ -33,7 +33,7 @@ function BlogContent() {
   const blogCardsArray = posts.map((post) => (
     <Col lg={4} md={6} sm={12} className="project-card mb-5" key={post.guid}>
       <BlogCard
-        imgPath={post.thumbnail}
+        imgPath={post.enclosure.link}
         link={post.link}
         title={post.title}
         description={`${ToText(post.description.substring(0, 1000))}`}
