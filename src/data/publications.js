@@ -2,6 +2,27 @@ const publications = [
   {
     id: 1,
     authors:
+      "Laurentino TG, Dittmer DE, Grundler M, Pina-Martins F, Haddock J, Hibbitts TJ, Rosenblum EB",
+    title:
+      "Repeated evolution of blanched coloration in a lizard across independent white-sand habitats",
+    url: "https://doi.org/10.1002/ece3.9555",
+    date: "Ecology & Evolution (2022) 12:e9555",
+    outreachDescription1: "Radio interview on the Salt Basin Dunes' Lizards",
+    outreachLink1:
+      "https://ssecommunityblog.org/evallution-3-lessons-the-blind-community-taught-us-about-inclusive-teaching-of-evolution/",
+   },
+   {
+    id: 2,
+    authors:
+      "Laurentino TG, Boileau N, Ronco F, Berner D",
+    title:
+      "The EDA receptor (EDAR) is a candidate gene for lateral plate number variation in stickleback fish",
+    url: "https://doi.org/10.1093/g3journal/jkac077",
+    date: "G3: Genes, Genomes, Genetics (2022) 12:6  Cover feature",
+  },
+  {
+    id: 3,
+    authors:
       "Laurentino TG, Xavier M, Ronco F, Pina-Martins F, Domingues I, Penha B, Dias M, de Sousa A, Carrilho T, Rodrigues L, Pinheiro C*, Rato D*, Balata D*, Ayala G*, Matos M M*, Campelo M*, Botelho R",
     title:
       "evALLution: making basic evolution concepts accessible to people with visual impairment through a multi-sensory tree of life",
@@ -15,7 +36,7 @@ const publications = [
       "https://expressodooriente.com/cegos-experimentam-a-biodiversidade/?fbclid=IwAR3lDeZogayzlJ5xdzWbGTui7DRpnQDt2XsP71Gm1fnEbTWztML7aSjXozU",
   },
   {
-    id: 2,
+    id: 4,
     authors:
       "Laurentino TG, Moser D, Roesti M, Ammann M, Frey A, Ronco F, Kueng B, Berner D ",
     title:
@@ -28,7 +49,7 @@ const publications = [
       "https://ecoevocommunity.nature.com/posts/65697-chasing-selection",
   },
   {
-    id: 3,
+    id: 5,
     authors: "Laurentino TG, Baur J, Usui T, Eichhorn M ",
     title:
       "Liana abundance and relationships to sapling and tree hosts in an East African Primary Forest",
@@ -39,7 +60,7 @@ const publications = [
       "https://treesinspace.com/2019/01/03/why-should-anyone-care-about-ugandan-lianas/",
   },
   {
-    id: 4,
+    id: 6,
     authors: "Laurentino TG*, Haenel Q*, Roesti M, Berner D",
     title:
       "Meta-analysis of chromosome-scale crossover rate variation in eukaryotes and its significance to evolutionary genomics",
@@ -47,7 +68,7 @@ const publications = [
     date: "Molecular ecology (2018) 27 (11), 2477-2497",
   },
   {
-    id: 5,
+    id: 7,
     authors: "Laurentino TG, Pais MP, Rosa GM ",
     title:
       "From a local observation to a european-wide phenomenon: Amphibian deformities in Serra da Estrela Natural Park, Portugal",
