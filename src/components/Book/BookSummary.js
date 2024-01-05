@@ -44,10 +44,10 @@ function BookSummary() {
             book!
           </p>
           <a
-            href="https://www.amazon.com/love-letter-Forest-you-through/dp/194965219X"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeSHGqjyTJxvbfgwhyCUNrtti2seQ9AWjM0Q8bTVCYJEu7DIA/viewform?usp=sf_link"
             className="button-secondary"
           >
-            Order Book
+            Order a signed copy! 
           </a> 
          <p>
          <p>
