@@ -49,13 +49,15 @@ function BookSummary() {
             className="button-secondary"
           >
             Order Book
-          </a>  
+          </a> 
+         <p>
          <a
            href="https://www.goodreads.com/book/show/121707535-a-love-letter-from-the-forest-to-you-through-me"
            className="button-secondary"
          >
           Goodreads
           </a>
+          </p>
         </div>
       </Col>
     </Row>
