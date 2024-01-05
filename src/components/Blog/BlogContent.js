@@ -36,7 +36,7 @@ function BlogContent() {
         imgPath={post.enclosure.link}
         link={post.link}
         title={post.title}
-        description={`${ToText(post.description.substring(0, 1000))}`}
+        description={`${ToText(post.description.substring(0, 1000)).replace(/&amp;/g, '&')}`}
       />
     </Col>
   ));
