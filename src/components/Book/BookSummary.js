@@ -14,24 +14,23 @@ function BookSummary() {
       <Col md={6}>
         <div>
           <p>
-            Telma G. Laurentino embodies the voices and poems of the forest and
-            shares how these moments changed her and inspired her deep and
-            irreversible love for the Earth.
+            Telma G. Laurentino, Ph.D. is an evolutionary biologist who traveled across 5 continents studying biodiversity and adaptation.
+            While learning, she keeps two logbooks: the field notebook to record all scientific data; and a love letter, a heart log, where deeper
+            teachings are engraved as she learns from other species.
           </p>
           <p>
             {" "}
-            She takes us on a multisensory journey along the tree of life,
-            across 5 continents. Through joy and heartbreak, alone or in
-            community, she listens deeply to the forest, to her evolutionary
-            kin, who seem to always hold the answers that nourish healing,
-            growth and grounding.
+            She now shares that love letter, from the forest, where science and spirit interlace 
+            in a poetic journey of life as an eternal quest for wonder and belonging, with nature 
+            as our most generous teacher. Memories, photography, poetry, and fable take us on a 
+            multi-sensory walk through the wild woods, from which we emerge more connected to our surrounding evolutionary kin.
           </p>
           <p>
             {" "}
-            In this love letter from the forest, science and spirit, prose and
-            poem, interlace in a deep testimony of life as an eternal journey to
-            find oneself, to find purpose, wonder and belonging, with nature as
-            our most generous and loving teacher.
+            While her scientific research has been published in international peer-review journals since 2012, 
+            this more intimate portrait of Telma's relationship with her surrounding ecosystems has remained private, until now. 
+            Science ceases to be merely a language of separation and dissection and is reclaimed as a language of wonder and connection. 
+            A personal account on healing the artificial divide between scientist and poet, human and non-human.
           </p>
 
           <p>
@@ -44,7 +43,7 @@ function BookSummary() {
           </p>
 
           <a
-            href="https://www.bookdepository.com/"
+            href="https://www.amazon.com/love-letter-Forest-you-through/dp/194965219X"
             className="button-secondary"
           >
             Order Book
