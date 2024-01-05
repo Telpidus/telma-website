@@ -27,12 +27,10 @@ function Book() {
       <div className="bg-color-gray">
         <Container>
           <p className="py-5 mb-0 font-size-medium">
-            “My chest was full because I was experiencing something that I was
+            “I was experiencing something that I was
             sure about, that I dedicated my life to studying, but never felt
             that deeply before: I was but one branch in the tree of life and
-            connected to all others by ancestry. One might imagine that such a
-            realization, when truly sensed, would make you feel tiny and
-            insignificant, but no. My body and mind were filled by a new and
+            connected to all others by shared ancestry. My body and mind were filled by a new and
             unabashed sense of belonging.”
           </p>
         </Container>
