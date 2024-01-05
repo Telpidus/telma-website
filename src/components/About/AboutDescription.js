@@ -6,7 +6,10 @@ function About() {
       <p>
         <b>
         I’m a scientist, communicator and educator.
-    
+      </b>
+      </p>
+      <p>
+        <b>
         As evolutionary biologist, I study how species evolve and adapt to
         environmental change, as writter and educator I focus on systemic 
         socio-ecological issues and how they shape our relationship with each other and nature.
