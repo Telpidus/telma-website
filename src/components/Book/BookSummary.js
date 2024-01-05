@@ -19,11 +19,13 @@ function BookSummary() {
             teachings are engraved as she learns from other species.
           </p>
           <p>
+          <b>
             {" "}
             She now shares that love letter, from the forest, where science and spirit interlace 
             in a poetic journey of life as an eternal quest for wonder and belonging, with nature 
             as our most generous teacher. Memories, photography, poetry, and fable take us on a 
             multi-sensory walk through the wild woods, from which we emerge more connected to our surrounding evolutionary kin.
+          </b>
           </p>
           <p>
             {" "}
@@ -47,6 +49,15 @@ function BookSummary() {
             className="button-secondary"
           >
             Order Book
+          </a>
+        </div>
+      </Col>
+    </Row>
+        <a
+          href="https://www.goodreads.com/book/show/121707535-a-love-letter-from-the-forest-to-you-through-me"
+          className="button-secondary"
+        >
+          Goodreads
           </a>
         </div>
       </Col>
