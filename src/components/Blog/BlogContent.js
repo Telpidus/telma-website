@@ -10,7 +10,7 @@ function BlogContent() {
   const [loading, setLoading] = useState(true);
   //we can change this url after
   const MEDIUM_URL =
-    "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@telma.laurentino";
+    "https://api.rss2json.com/v1/api.json?rss_url=https://telmaglaurentino.substack.com/feed";
 
   const getPosts = async () => {
     try {
