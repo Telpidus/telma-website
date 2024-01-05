@@ -14,7 +14,7 @@ function Blog() {
   return (
     <div className="book-section">
       <BannerImage
-        title="Writtings"
+        title="Writings"
         description={
           <Fragment>
             <span className="color--quarternary d-block">
@@ -33,7 +33,7 @@ function Blog() {
 
       <div className="bg-color-gray pt-5">
         <Container>
-          <h2 className="color--secondary mb-4">My Blog</h2>
+          <h2 className="color--secondary mb-4">I N T E R L A C I N G S</h2>
           {BlogContent()}
         </Container>
       </div>
