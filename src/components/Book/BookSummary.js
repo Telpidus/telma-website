@@ -43,7 +43,6 @@ function BookSummary() {
             &nbsp;for photos and descriptions of moments that have inspired the
             book!
           </p>
-
           <a
             href="https://www.amazon.com/love-letter-Forest-you-through/dp/194965219X"
             className="button-secondary"
@@ -51,13 +50,14 @@ function BookSummary() {
             Order Book
           </a> 
          <p>
+         <p>
          <a
            href="https://www.goodreads.com/book/show/121707535-a-love-letter-from-the-forest-to-you-through-me"
            className="button-secondary"
-           style="margin-top: 10px;" <!
          >
           Goodreads
           </a>
+          </p>
           </p>
         </div>
       </Col>
