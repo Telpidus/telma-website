@@ -8,7 +8,7 @@ const teamMembers = [
     title: "Convergent & Divergent evolution",
     subtitle: "PostDoc @ Rosenblum Lab, UCBerkeley 🇺🇸 ",
     description:
-      "I'm looking at phenotypic convergence across species and habitats and divergence within species to investigate the genomic basis of Lizard's adaptation to rapid environmental change: does natural selection use the same tools to produce similar, and diverging, cryptic coloration phenotypes? What are the idiosyncrasies of convergent evolution? What genes underlie fast adaptive change?",
+      "I studied phenotypic convergence across species and habitats and divergence within species to investigate the genomic basis of Lizard's adaptation to rapid environmental change: does natural selection use the same tools to produce similar, and diverging, cryptic coloration phenotypes? What are the idiosyncrasies of convergent evolution? What genes underlie fast adaptive change?",
     img: image1,
     pictureRight: false,
     url: "https://ourenvironment.berkeley.edu/",
