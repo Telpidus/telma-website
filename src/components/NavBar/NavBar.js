@@ -71,6 +71,15 @@ function NavBarComponent() {
                 as={Link}
                 to="/outreach"
                 onClick={() => updateExpanded(false)}
+             >
+                Teaching
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/teaching"
+                onClick={() => updateExpanded(false)}
               >
                 Outreach
               </Nav.Link>
