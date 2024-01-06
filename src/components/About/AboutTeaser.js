@@ -18,7 +18,7 @@ const data = [
     title: "Educator",
     image: translating,
     alt: "Tree of Life Illustration",
-    link: "/outreach",
+    link: "/teaching",
   },
   {
     id: 3,
