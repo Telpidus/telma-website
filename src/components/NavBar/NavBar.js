@@ -63,6 +63,15 @@ function NavBarComponent() {
                 to="/gallery"
                 onClick={() => updateExpanded(false)}
              >
+                Gallery
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/outreach"
+                onClick={() => updateExpanded(false)}
+              >
                 Teaching
               </Nav.Link>
             </Nav.Item>
@@ -70,15 +79,6 @@ function NavBarComponent() {
               <Nav.Link
                 as={Link}
                 to="/teaching"
-                onClick={() => updateExpanded(false)}
-              >
-                Outreach
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/blog"
                 onClick={() => updateExpanded(false)}
               >
                 Blog
@@ -98,14 +98,14 @@ function NavBarComponent() {
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
-              >
-                Gallery
+                  >
+                Outreach
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/outreach"
+                to="/blog"
                 onClick={() => updateExpanded(false)}
               >
                 About
