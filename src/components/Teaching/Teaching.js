@@ -9,6 +9,7 @@ import translatingImage from "../../assets/Home/translating.png";
 import bannerimage from "../../assets/banner_contact_hands.webp";
 import students from "../../data/students.js";
 import "./teaching.scss";
+import telmaResume from "../../assets/telma_laurentino_CV.pdf";
 
 function Teaching() {
   useLayoutEffect(() => {
@@ -35,6 +36,9 @@ function Teaching() {
           </Fragment>
         }
         imgPath={translatingImage}
+        downloadText="Download CV"
+        pdf={telmaResume}
+        pdfName="telma_laurentino_CV.pdf"
       />
       <div className="bg-color-gray pt-5 pb-5">
         <Container>
