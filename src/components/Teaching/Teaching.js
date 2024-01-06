@@ -22,8 +22,7 @@ function Teaching() {
         description={
           <Fragment>
             <span className="color--quarternary d-block">
-              I want everyone to be able to learn about the evolution of life on
-              our planet!
+              Science in service of Ecossystem & Society!
             </span>{" "}
             <br />
             My teaching is focused on the Tree of Life and on worldviews,
