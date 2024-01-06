@@ -18,6 +18,9 @@ function BookSummary() {
     Mercury HeartLink is proud to publish this ode to the ecstasy of remembering one's belonging to the web of life, a neverending journey to return home, on Earth.
         </b>     
         </p>
+         <p>
+            Nature  |  Memoir 
+         </p>
           <p>
             Telma G. Laurentino, Ph.D. is an evolutionary biologist who traveled across 5 continents studying biodiversity and adaptation.
             While learning, she keeps two logbooks: the field notebook to record all scientific data; and a love letter, a heart log, where deeper
@@ -39,17 +42,20 @@ function BookSummary() {
             Science ceases to be merely a language of separation and dissection and is reclaimed as a language of wonder and connection. 
             A personal account on healing the artificial divides between scientist and poet, human and non-human.
           </p>
+              <p>
+              <b>
+              This love letter might take you to loving places within and outside that you had forgotten...
+              </b>
+              </p>
           <p>
-              Published by Mercury HeartLink 2022
-          </p>
-
-          <p>
+          <b>
             Check the{" "}
             <Link to="/gallery">
               <b>Gallery</b>
             </Link>{" "}
             &nbsp;for photos and descriptions of moments that have inspired the
             book!
+          </b>
           </p>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSeSHGqjyTJxvbfgwhyCUNrtti2seQ9AWjM0Q8bTVCYJEu7DIA/viewform?usp=sf_link"
