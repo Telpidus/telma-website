@@ -4,7 +4,7 @@ import BannerHome from "../Banner/BannerHome";
 import Banner from "../Banner/Banner";
 import home from "../../data/home.js";
 import Telma from "../../assets/Home/telma_laurentino.png";
-import bannerimage from "../../assets/banner_contact_hands.webp";
+import bannerimage from "../../assets/banner_contact_about.webp";
 import "./home.scss";
 
 function Home() {
