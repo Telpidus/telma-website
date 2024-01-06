@@ -22,7 +22,7 @@ const data = [
   },
   {
     id: 3,
-    title: "Writter",
+    title: "Writer",
     image: writter,
     alt: "Feet with Tree of Life Illustration",
     link: "/book",
