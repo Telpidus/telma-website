@@ -16,8 +16,8 @@ function Book() {
   return (
     <div className="book">
       <BannerImage
-        title="A love letter <br> 
-        From the Forest <br>
+        title="A love letter    
+        From the Forest   
         to you,through me."
         description={
           <Fragment>
