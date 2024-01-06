@@ -14,18 +14,17 @@ function Blog() {
   return (
     <div className="book-section">
       <BannerImage
-        title="Writings"
+        title="I N T E R L A C I N G S"
         description={
           <Fragment>
             <span className="color--quarternary d-block">
-              Follow the thoughts and news from this branch of the Tree of Life
+              I find great curiosity, awe & discomfort in weaving through the epistemologies that underlie systemic socio-ecological issues. Writing helps me process. 
             </span>{" "}
             <br />
-            My wonder for the evolution of the outside world reflects inwards in
-            the branching pattern of my personal growth. Belonging in the
-            tree-of-life, for me, means that I search for non-duality and
-            interbeing, with nature as my biggest teacher, and I love to write
-            about this!
+            I have no solution nor crave absolutisms, but I hold multitudes of baskets overflowing with interlaced questions and 
+            uncertainties that want to be voiced and moved through in multisensory community. 
+            In a deeply rooted intuition that our common ancestry with all life on earth is a 
+            r*evolution*ary guide towards sustainable and just systemic change.
           </Fragment>
         }
         imgPath={embodyingImage}
@@ -33,7 +32,7 @@ function Blog() {
 
       <div className="bg-color-gray pt-5">
         <Container>
-          <h2 className="color--secondary mb-4">I N T E R L A C I N G S</h2>
+          <h2 className="color--secondary mb-4">latest musings</h2>
           {BlogContent()}
         </Container>
       </div>
