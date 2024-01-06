@@ -47,14 +47,14 @@ function Outreach() {
         description={
           <Fragment>
             <span className="color--quarternary d-block">
-              I believe it is essential for researchers to communicate with the
-              public, which benefits both parties!
+              Science turned to wonder and belonging, for all!
             </span>{" "}
-            <br />I connect with the public through the wonder I feel for
-            evolution and biodiversity, share the knowledge I have acquired in
-            my research, and hope to inspire a sense of belonging in the Tree of
-            Life that awakens our connection to nature, breaking fake barriers
-            between one another, and our planet.
+            <br />
+          Biodiversity is the greatest teacher of multisensory and complex ways of being. The wonder we feel when 
+          learning the diversity of life on our planet, how it evolves, and how we're connected to it all through common 
+          ancestry is a beautiful and powerful source of inspiration for sustainability and inclusion. 
+          <br />  
+          I break silos that keep scientific knowledge away from the public, so that data can be transformed into diverse communities.
           </Fragment>
         }
         imgPath={translatingImage}
