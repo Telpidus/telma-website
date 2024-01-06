@@ -51,7 +51,7 @@ function NavBarComponent() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/research"
+                to="/home"
                 onClick={() => updateExpanded(false)}
               >
                 Research
@@ -60,16 +60,7 @@ function NavBarComponent() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/gallery"
-                onClick={() => updateExpanded(false)}
-             >
-                Gallery
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/outreach"
+                to="/research"
                 onClick={() => updateExpanded(false)}
               >
                 Teaching
@@ -80,24 +71,6 @@ function NavBarComponent() {
                 as={Link}
                 to="/teaching"
                 onClick={() => updateExpanded(false)}
-              >
-                Blog
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/book"
-                onClick={() => updateExpanded(false)}
-              >
-                Book
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
                   >
                 Outreach
               </Nav.Link>
@@ -105,7 +78,34 @@ function NavBarComponent() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/outreach"
+                onClick={() => updateExpanded(false)}
+                  >
+                Blog
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/blog"
+                onClick={() => updateExpanded(false)}
+                  >
+                Book
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/book"
+                onClick={() => updateExpanded(false)}
+                  >
+                Gallery
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/gallery"
                 onClick={() => updateExpanded(false)}
               >
                 About
