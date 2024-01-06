@@ -18,7 +18,9 @@ function Blog() {
         description={
           <Fragment>
             <span className="color--quarternary d-block">
-              I find great curiosity, awe & discomfort in weaving through the epistemologies that underlie systemic socio-ecological issues. Writing helps me process. 
+              I find great curiosity, awe & discomfort in weaving through the epistemologies underlying systemic socio-ecological issues. 
+            <br />    
+              Writing helps me process. 
             </span>{" "}
             <br />
             I have no solution nor crave absolutisms, but I hold multitudes of baskets overflowing with interlaced questions and 
