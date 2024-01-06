@@ -61,9 +61,9 @@ function Workshops() {
     <div className="research-section">
       <BannerImage
         title="Research"
-        description="I wanted to understand the evolution of biodiversity so... 
-                      I’ve worked with a bunch of Tree of Life branches but my core work has been done with fish and lizards, who I especially love.
-                      Learn about my academic history and see my scientific peer-reviewed publications"
+        description=" I was always curious about how biodiversity evolves and how species are in relationship with their communities & ecosystems.
+                      Lizards and fish have been some of my main teachers of the genomic details of evolution that enlight systemic overviews.
+                      Academic history and scientific peer-reviewed publications below. 
         imgPath={observingImage}
         anchor="#publications"
         anchorLabel="Publications"
