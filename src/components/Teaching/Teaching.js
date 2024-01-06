@@ -1,4 +1,4 @@
-import React, { Fragment, useLayoutEffect } from "react";
+uimport React, { Fragment, useLayoutEffect } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import Carousel from "../Carousel/Carousel";
@@ -57,7 +57,7 @@ function Teaching() {
         <Row>
           <Col md={12}>
             <h2 className="margin-top--large mb-5 color--secondary text-center">
-              My two favorite trees to teach & learn about
+              Evolutionary Biology data in service of Systemic Education
             </h2>
           </Col>
         </Row>
