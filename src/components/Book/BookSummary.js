@@ -13,6 +13,11 @@ function BookSummary() {
       </Col>
       <Col md={6}>
         <div>
+        <p>
+        <b>
+    Mercury HeartLink is proud to publish this ode to the ecstasy of remembering one's belonging to the web of life, a neverending journey to return home, on Earth.
+        </b>     
+        </p>
           <p>
             Telma G. Laurentino, Ph.D. is an evolutionary biologist who traveled across 5 continents studying biodiversity and adaptation.
             While learning, she keeps two logbooks: the field notebook to record all scientific data; and a love letter, a heart log, where deeper
