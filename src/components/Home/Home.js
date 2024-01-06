@@ -31,7 +31,7 @@ function Home() {
         buttonLabel="More About me"
         title="Telma G. Laurentino"
         subTitle="Evolutionary Biologist
-        Teacher of trees"
+        Ecosystemic Thinker"
         imgPath={Telma}
         link="about"
       />
