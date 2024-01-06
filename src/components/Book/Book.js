@@ -16,10 +16,10 @@ function Book() {
   return (
     <div className="book">
       <BannerImage
-        title="Writtings"
+        title="A love letter <strong>From the Forest</strong> to you, through me."
         description={
           <Fragment>
-            A love letter <strong>From the Forest</strong> to you, through me.
+           by Telma G. Laurentino
           </Fragment>
         }
         imgPath={embodyingImage}
