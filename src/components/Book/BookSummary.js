@@ -32,7 +32,10 @@ function BookSummary() {
             While her scientific research has been published in international peer-review journals since 2012, 
             this more intimate portrait of Telma's relationship with her surrounding ecosystems has remained private, until now. 
             Science ceases to be merely a language of separation and dissection and is reclaimed as a language of wonder and connection. 
-            A personal account on healing the artificial divide between scientist and poet, human and non-human.
+            A personal account on healing the artificial divides between scientist and poet, human and non-human.
+          </p>
+          <p>
+              Published by Mercury HeartLink 
           </p>
 
           <p>
