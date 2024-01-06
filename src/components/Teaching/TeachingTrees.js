@@ -21,7 +21,7 @@ function TeachingTrees() {
       </Col>
       <Col xl={2} md={2} sm={12}>
         <div className="teaching-trees__separator">
-          <h5>&</h5>
+          <h5> </h5>
         </div>
       </Col>
       <Col xl={5} md={5} sm={12}>
