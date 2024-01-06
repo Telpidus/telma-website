@@ -53,8 +53,10 @@ function Outreach() {
           Biodiversity is the greatest teacher of multisensory and complex ways of being. The wonder we feel when 
           learning the diversity of life on our planet, how it evolves, and how we're connected to it all through common 
           ancestry is a beautiful and powerful source of inspiration for sustainability and inclusion. 
-          <br />  
+          <br />
+          <span className="color--quarternary d-block">
           I break silos that keep scientific knowledge away from the public, so that data can be transformed into diverse communities.
+          </span>{" "}
           </Fragment>
         }
         imgPath={translatingImage}
