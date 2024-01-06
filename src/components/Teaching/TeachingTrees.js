@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import phylogeneticTree from "../../assets/phylogenetic-tree.png";
-import worldviewTree from "../../assets/worldview-tree.png";
+import worldviewTree from "../../assets/RH_Teachings.png";
 
 import "./teaching.scss";
 
