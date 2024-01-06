@@ -28,7 +28,7 @@ function Teaching() {
           </b>
             </span>{" "}
             <br />
-            I dream of culturally-responsive and multidisciplinary education spaces 
+            I dream of creative, culturally-responsive and multidisciplinary education spaces 
             where rigorous scientific practices interlace with phylosophy and arts to co-create something more 
             useful and regenerative than the summ of different disciplines taught in isolation. 
             <br />
