@@ -16,7 +16,9 @@ function Book() {
   return (
     <div className="book">
       <BannerImage
-        title="A love letter From the Forest to you, through me."
+        title="A love letter 
+        From the Forest 
+        to you,through me."
         description={
           <Fragment>
            by Telma G. Laurentino, 9 forests and many other species
