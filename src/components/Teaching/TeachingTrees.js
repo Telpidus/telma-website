@@ -15,8 +15,8 @@ function TeachingTrees() {
             alt="Phylogenetic Tree"
             className="teaching-trees__img"
           />
-          <h4 className="mt-4">The Phylogenetic tree of life</h4>
-          <h5 className="color--quarternary">based on biodiversity data</h5>
+          <h4 className="mt-4">Phylogenetic tree of life</h4>
+          <h5 className="color--quarternary">genomic biodiversity data</h5>
         </div>
       </Col>
       <Col xl={2} md={2} sm={12}>
@@ -31,8 +31,8 @@ function TeachingTrees() {
             alt="World View Tree"
             className="teaching-trees__img"
           />
-          <h4 className="mt-4">The Worldview tree of life</h4>
-          <h5 className="color--quarternary">based on human culture</h5>
+          <h4 className="mt-4">Systemic evolution</h4>
+          <h5 className="color--quarternary">eco-evo-socio education</h5>
         </div>
       </Col>
     </Row>
