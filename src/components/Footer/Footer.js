@@ -34,15 +34,7 @@ function Footer() {
             href="https://telmaglaurentino.substack.com/"
             style={{ color: "white" }}
           >
-            <i className="fab fa-substack"></i>
-          </a>
-        </li>
-        <li className="social-icons">
-          <a
-            href="https://medium.com/@telma.laurentino"
-            style={{ color: "white" }}
-          >
-            <i className="fab fa-medium"></i>
+            <i className="fa-solid fa-seedling"></i>
           </a>
         </li>
       </ul>
