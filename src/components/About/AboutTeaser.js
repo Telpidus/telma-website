@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import researcher from "../../assets/observing.png";
+import researcher from "../../assets/Home/observing.png";
 import translating from "../../assets/Home/translating.png";
 import writter from "../../assets/writter.png";
 
