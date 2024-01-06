@@ -25,7 +25,7 @@ function NavBarComponent() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar__component"}
+      className={(navColour ? "sticky" : "navbar", "navbar__component")}
     >
       <Container fluid>
         <Navbar.Brand href="/">
@@ -51,7 +51,7 @@ function NavBarComponent() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/home"
+                to="/research"
                 onClick={() => updateExpanded(false)}
               >
                 Research
@@ -60,19 +60,10 @@ function NavBarComponent() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/research"
+                to="/gallery"
                 onClick={() => updateExpanded(false)}
               >
-                Teaching
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/teaching"
-                onClick={() => updateExpanded(false)}
-                  >
-                Outreach
+                Gallery
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -80,8 +71,8 @@ function NavBarComponent() {
                 as={Link}
                 to="/outreach"
                 onClick={() => updateExpanded(false)}
-                  >
-                Blog
+              >
+                Outreach
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -89,8 +80,8 @@ function NavBarComponent() {
                 as={Link}
                 to="/blog"
                 onClick={() => updateExpanded(false)}
-                  >
-                Book
+              >
+                Blog
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -98,14 +89,14 @@ function NavBarComponent() {
                 as={Link}
                 to="/book"
                 onClick={() => updateExpanded(false)}
-                  >
-                Gallery
+              >
+                Book
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/gallery"
+                to="/about"
                 onClick={() => updateExpanded(false)}
               >
                 About
