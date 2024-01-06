@@ -62,7 +62,7 @@ function Workshops() {
       <BannerImage
         title="Research"
         description=" I was always curious about how biodiversity evolves and how species are in relationship with their communities & ecosystems.
-                      Lizards and fish have been some of my main teachers of the genomic details of evolution that enlight systemic overviews.
+                      Lizards and fish have been some of my main teachers of the genomic details of evolution that unravel complex systemic overviews.
                       Academic history and scientific peer-reviewed publications below. 
         imgPath={observingImage}
         anchor="#publications"
