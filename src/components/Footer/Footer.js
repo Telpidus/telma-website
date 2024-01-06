@@ -34,7 +34,7 @@ function Footer() {
             href="https://telmaglaurentino.substack.com/"
             style={{ color: "white" }}
           >
-            <i className="fa-regular fa-heart"></i>
+            <i className="fa-regular fa-medium"></i>
           </a>
         </li>
       </ul>
