@@ -20,7 +20,9 @@ function Book() {
           <Fragment>
           A love letter 
          <br />
-         FROM THE FOREST    
+         <b>
+         FROM THE FOREST  
+         </b>
          <br />
         to you, through me
          </Fragment>
