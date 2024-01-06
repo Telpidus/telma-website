@@ -31,8 +31,8 @@ function TeachingTrees() {
             alt="World View Tree"
             className="teaching-trees__img"
           />
-          <h4 className="mt-4">Systemic evolution</h4>
-          <h5 className="color--quarternary">eco-evo-socio education</h5>
+          <h4 className="mt-4">Multidisciplinary education</h4>
+          <h5 className="color--quarternary">ecosystemic evolution</h5>
         </div>
       </Col>
     </Row>
