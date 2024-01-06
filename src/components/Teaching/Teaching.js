@@ -19,7 +19,7 @@ function Teaching() {
   return (
     <div className="teaching-section">
       <BannerImage
-        title="Teacher of trees"
+        title="Teaching evolution"
         description={
           <Fragment>
             <span className="color--quarternary d-block">
@@ -28,13 +28,11 @@ function Teaching() {
           </b>
             </span>{" "}
             <br />
-            My teaching is focused on the Tree of Life and on worldviews,
-            represented by trees across many human cultures: I am thus a teacher
-            and student of trees! I am interested in a culturally-responsive
-            education system that provides knowledge that seeds environmental
-            and social transformation. So, much like an arborist, I aim to adapt
-            to the changing seasons and tend to my students as unique,
-            ever-growing, beings.
+            I dream of culturally-responsive and multidisciplinary education spaces 
+            where rigorous scientific practices interlace with phylosophy and arts to co-create something more 
+            useful and regenerative than the summ of different disciplines taught in isolation. 
+            <br />
+            Sometimes, this comes true in my classes!
           </Fragment>
         }
         imgPath={translatingImage}
@@ -47,7 +45,7 @@ function Teaching() {
           <Row>
             <Col md={12}>
               <h2 className="margin-top--large mb-5 color--secondary text-center">
-                Teaching and Inspiring
+                Teaching & Inspiring Evolution
               </h2>
             </Col>
           </Row>
