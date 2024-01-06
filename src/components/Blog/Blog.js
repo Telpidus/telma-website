@@ -1,7 +1,7 @@
 import React, { Fragment, useLayoutEffect } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
-import bannerimage from "../../assets/banner_contact_lizard.webp";
+import bannerimage from "../../assets/banner_tinysnake.webp";
 import BlogContent from "./BlogContent";
 import { Container } from "react-bootstrap";
 
