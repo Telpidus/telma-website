@@ -35,7 +35,7 @@ function BookSummary() {
             A personal account on healing the artificial divides between scientist and poet, human and non-human.
           </p>
           <p>
-              Published by Mercury HeartLink 
+              Published by Mercury HeartLink 2022
           </p>
 
           <p>
