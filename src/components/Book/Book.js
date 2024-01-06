@@ -5,7 +5,7 @@ import Carousel from "../Carousel/Carousel";
 import BookSummary from "./BookSummary";
 import { Row, Col, Container } from "react-bootstrap";
 import embodyingImage from "../../assets/Home/embodying.png";
-import bannerimage from "../../assets/banner_contact_tree.webp";
+import bannerimage from "../../assets/banner_sequoias.webp";
 import readers from "../../data/readers.js";
 import "./book.scss";
 
