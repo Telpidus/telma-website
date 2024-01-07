@@ -47,7 +47,9 @@ function Outreach() {
         description={
           <Fragment>
             <span className="color--quarternary d-block">
-              Science turned to wonder and belonging, for all!
+            <b>    
+            Science turned to wonder and belonging, for all!
+            </b>
             </span>{" "}
             <br />
           Biodiversity is the greatest teacher of multisensory and complex ways of being. The wonder we feel when 
