@@ -108,7 +108,7 @@ function Outreach() {
             Science for ALL
           </h2>
           <h5 className="color--quarternary mb-5">
-            evolution for the general public
+           evolution for the general public
           </h5>
         </Row>
         <Row>{articlesArray}</Row>
@@ -117,7 +117,7 @@ function Outreach() {
             Out there
           </h2>
           <h5 className="color--quarternary mb-5">
-            others writting about my science 
+            others talking about my science 
           </h5>
         </Row>
         <Row className="mb-5">{mediaArray}</Row>
