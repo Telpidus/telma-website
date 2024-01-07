@@ -7,7 +7,7 @@ const home = [
     id: 1,
     title: "Observing Evolution",
     description:
-      "I’ve always found awe in nature and that led me to photography as a hobby and research as a profession. These are my ways of witnessing the wonders of evolution: I capture biodiversity patters with my camera and understand their origins deeply through my research.",
+      "I’ve always found awe in nature which led me to photography as a hobby and research as a profession. These are my ways of deeply witnessing the wonders of evolution: I capture biodiversity patters with my camera and understand their origins & dynamics through my research.",
     img: Observing,
     button1: "Research",
     button2: "Gallery",
@@ -19,7 +19,7 @@ const home = [
     id: 2,
     title: "Translating Evolution",
     description:
-      "Teaching evolution, in any context, is always an act of translation: from DNA to big data, through plots and artistic representations, into stories that engage ALL our senses! I love to go through this holistic process while holding inclusive and creative education spaces for ALL.",
+      "Teaching evolution, in any context, is an act of translation: from DNA to big data, through plots and artistic representations, into stories that engage ALL our senses! I love to go through this holistic process while holding inclusive and creative education spaces for ALL.",
     img: Translating,
     button1: "Outreach",
     button2: "Teaching",
@@ -31,7 +31,7 @@ const home = [
     id: 3,
     title: "Embodying Evolution",
     description:
-      "My wonder for the evolution of the outside world reflects inwards in the branching pattern of my personal growth. Belonging in the tree-of-life, for me, means that I search for non-duality and interbeing, with nature as my biggest teacher, and I love to write about this!",
+      "My wonder for evolution roots my study of systemic education approaches to global socio-ecological issues, which I explore through my human experiences and writting. Ecosystems are my biggest teachers of complexity and belonging and I like to share the lessons I learn, as an act of care <3",
     img: Embodying,
     button1: "Blog",
     button2: "Book",
