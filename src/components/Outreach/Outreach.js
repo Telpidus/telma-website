@@ -71,7 +71,7 @@ function Outreach() {
           <div className="col-md-12 text-center ">
             <h2 className="mb-2 color--secondary">evALLution</h2>
             <h5 className="color--quarternary mb-5">
-              translating evolution into touch
+              translating evolution into touch for & with people with blindness
             </h5>
           </div>
           <YoutubeEmbed embedId="4o3JLsXH12w?t=10" />
