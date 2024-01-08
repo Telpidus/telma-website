@@ -6,11 +6,16 @@ function TeachingDescription() {
   return (
     <div className="teaching-description">
       <p>
-      <b>
-       Designing multidisciplinary curriculum & learning and teaching, simultaneously, are some of my favourite activities as a scholar.
-      </b>  
+        <span className="color--quarternary d-block">
+        I am interested in contributing to an equitable education system that provides multidisciplinary knowledge in support of systemic thinking, and inclusive & sustainable futures, for all.
+        Designing multidisciplinary curriculum & learning and teaching, simultaneously, are some of my favourite activities as a scholar.
+        </span>{" "}
       </p>
-      <p>I teach in different contexts:</p>
+      <p>
+    <b>
+      I teach in different contexts:
+    </b>
+      </p>
       <ul className="font-size-medium mt-5 mb-5">
         <li className="mb-3">
           <i className="fa fa-book color--secondary"></i> <b>Formal education </b> - University courses & invited lectures 
