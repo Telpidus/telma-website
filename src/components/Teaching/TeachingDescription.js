@@ -6,11 +6,12 @@ function TeachingDescription() {
   return (
     <div className="teaching-description">
       <p>
-        <span className="color--quarternary d-block">
+      <b>
+       <span className="color--quarternary d-block">
         I am interested in contributing to an equitable education system that provides multidisciplinary knowledge in support of systemic thinking, and inclusive & sustainable futures, for all.
-        Designing multidisciplinary curriculum & learning and teaching, simultaneously, are some of my favourite activities as a scholar.
         </span>{" "}
-      </p>
+     </b> 
+     </p>
       <p>
     <b>
       I teach in different contexts:
