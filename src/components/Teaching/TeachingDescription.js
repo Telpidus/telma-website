@@ -65,6 +65,11 @@ function TeachingDescription() {
             Iclusive tools I've developed
         </a> 
       </p>
+           <p>
+              <span className="color--quarternary d-block">
+              See CV for details of where I've taught
+              </span>{" "}
+          </p>
     </div>
   );
 }
