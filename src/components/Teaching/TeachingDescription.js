@@ -21,18 +21,24 @@ function TeachingDescription() {
         <li className="mb-3">
           <i className="fa fa-book color--secondary"></i> <b>Formal education </b> - University courses & invited lectures 
            <br />
+     <span className="color--quarternary d-block">
           Evolutionary biology & Ecology & Bioinformatics
+     </span>{" "}
         </li>
         <li className="mb-3">
-          <i className="fa fa-tree color--secondary"></i> Informal education - Science outreach in schools and other education institutions
+          <i className="fa fa-tree color--secondary"></i> <b>Informal education</b> - Science outreach in schools and other education institutions
            <br />
+     <span className="color--quarternary d-block">
           Biodiversity & Evolution
+    </span>{" "}
         </li>
         <li className="mb-3">
           {" "}
-          <i className="fa fa-heart color--secondary"></i> Depth education - Virtual and in-person community spaces
+          <i className="fa fa-heart color--secondary"></i> <b>Depth education</b> - Virtual and in-person community spaces
             <br />
+      <span className="color--quarternary d-block">
           Ecosystemic awareness & Socio-Ecological issues
+     </span>{" "}
         </li>
       </ul>
       <p>
