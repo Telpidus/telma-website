@@ -43,7 +43,6 @@ function TeachingDescription() {
       </ul>
       <p>
           In any context I try to hold education spaces grounded in belonging, that honor creativity and scientific rigour while allowing uncertainty, diversity and non-violent disagreement.
-          I try to make lecture plans multisensory, interactive and responsive to the learning needs & curiosities of the group.
       </p>
       <p>
           <b>
