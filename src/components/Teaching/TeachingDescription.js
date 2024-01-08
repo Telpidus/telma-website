@@ -42,7 +42,9 @@ function TeachingDescription() {
         </li>
       </ul>
       <p>
-          I strive to create education spaces grounded in <b>belonging</b>, that honor <b>creativity</b> and <b>scientific rigour</b> while holding <b>uncertainty</b>, <b>diversity</b> and <b>non-violent disagreement</b>.
+          In any context I try to hold education spaces grounded in belonging, that honor creativity and scientific rigour while allowing uncertainty, diversity and non-violent disagreement.
+          I try to make lecture plans multisensory, interactive and responsive to the learning needs & curiosities of the group.
+      </p>
       <p>
           <b>
           When designing and teaching curriculum I apply student-centered, active, 3D learning principles focused on core ideas, crosscutting concepts, and ethically guided scientific practices.
@@ -56,7 +58,7 @@ function TeachingDescription() {
           >
             Teaching research I follow  
           </a> 
-              {" "}
+              {"  "}
         <a
             href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1"
             className="button-secondary"
