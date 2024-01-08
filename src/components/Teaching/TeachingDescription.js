@@ -50,7 +50,8 @@ function TeachingDescription() {
             className="button-secondary"
           >
             Teaching research I follow  
-          </a>    
+          </a> 
+              <br />
         <a
             href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1"
             className="button-secondary"
