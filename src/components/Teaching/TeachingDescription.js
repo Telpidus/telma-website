@@ -45,9 +45,7 @@ function TeachingDescription() {
           I strive to create education spaces grounded in <b>belonging</b>, <b>creativity</b> and <b>scientific rigour</b>, that hold space for <b>wonder</b>, <b>uncertainty</b>, <b>diversity</b> and <b>non-violent disagreement</b>.
       </p>
       <p>
-          <b>
-          When designing and teaching curriculum I apply student-centered, active, 3D learning principles focused on core ideas, crosscutting concepts, and ethically guided scientific practices.
-          </b>      
+          When designing and teaching curriculum I apply <b>student-centered</b>, <b>active</b>, <b>3D learning</b> principles focused on <b>core ideas</b>, <b>crosscutting concepts</b>, and <b>ethically guided scientific practices</b>.
          <br />
       </p>
       <p>
