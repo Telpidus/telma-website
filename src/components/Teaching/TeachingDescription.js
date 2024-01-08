@@ -38,19 +38,20 @@ function TeachingDescription() {
           When designing and teaching curriculum I apply student-centered, active, 3D learning principles focused on core ideas, crosscutting concepts, and ethically guided scientific practices.
           </b>      
          <br />
-        <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeSHGqjyTJxvbfgwhyCUNrtti2seQ9AWjM0Q8bTVCYJEu7DIA/viewform?usp=sf_link"
-            className="button-secondary"
-          >
-            TEST BUTTON! 
-          </a> 
       </p>
       <p>
-        <span className="color--quarternary d-block">
-       <b>
-        I am interested in contributing to an equitable education system that provides multidisciplinary knowledge that supports systemic thinking at the service of inclusive and sustainable futures, for all.
-       </b>
-        </span>{" "}
+        <a
+            href="https://www.science.org/doi/10.1126/science.1096022"
+            className="button-secondary"
+          >
+            Teaching research I follow  
+          </a>    
+        <a
+            href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00143-1"
+            className="button-secondary"
+          >
+            Iclusive tools I've developed
+        </a> 
       </p>
     </div>
   );
