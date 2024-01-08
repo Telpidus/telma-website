@@ -42,7 +42,7 @@ function TeachingDescription() {
         </li>
       </ul>
       <p>
-          In any context I try to hold education spaces grounded in <b>belonging</b>, that honor creativity and scientific rigour while allowing uncertainty, diversity and non-violent disagreement.
+          I strive to create education spaces grounded in <b>belonging</b>, <b>creativity</b> and <b>scientific rigour</b>, that hold space for <b>wonder</b>, <b>uncertainty</b>, <b>diversity</b> and <b>non-violent disagreement</b>.
       </p>
       <p>
           <b>
