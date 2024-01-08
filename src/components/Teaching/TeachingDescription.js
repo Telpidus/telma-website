@@ -65,6 +65,8 @@ function TeachingDescription() {
             Iclusive tools I've developed
         </a> 
       </p>
+              I have taught classes at: Faculty of Sciences, Lisbon University 🇵🇹  Basel University 🇨🇭  University of California, Berkeley 🇺🇸 
+              I have given invited lectures in 🇵🇹 🇨🇭 🇺🇸 🇧🇷 
     </div>
   );
 }
