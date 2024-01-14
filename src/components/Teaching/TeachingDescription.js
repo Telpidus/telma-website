@@ -26,7 +26,7 @@ function TeachingDescription() {
      </span>{" "}
         </li>
         <li className="mb-3">
-          <i className="fa fa-tree color--secondary"></i> <b>Informal education</b> - Science outreach in schools and other education institutions
+          <i className="fa fa-tree color--secondary"></i> <b>Informal education</b> - Science outreach in schools & other institutions, scientific consulting for artists
            <br />
      <span className="color--quarternary d-block">
           Biodiversity & Evolution
