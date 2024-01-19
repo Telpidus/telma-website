@@ -21,7 +21,7 @@ const students = [
     id: 4,
     name: "participant of 'Mycellial creativity' - depth education workshop",
     description:
-      "Thank you for the introspective exercise and for the trip to ecologies of others. It was so good and surprising (...) Sharing spaces like these are so interesting and important.",
+      "Thank you for the introspective exercise and for the trip to the ecologies of others. It was so good and surprising (...) Sharing spaces like these are so interesting and important.",
   },
   {
     id: 5,
