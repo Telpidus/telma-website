@@ -35,6 +35,12 @@ const students = [
     description:
       "She could always explain complicated matters in very clear ways. Her enthusiasm for science is contagious and motivated me to always dig a bit deeper and to question everything. I absolutely loved having her as my supervisor and thanks to her support and knowledge I could finish my masters with joy.",
   },
+  {
+    id: 7,
+    name: "Dr. Francisco Pina-Martins, teacher at FCUL & IPS",
+    description:
+      "Inviting Telma to teach in my classes was the greatest decision I could have made. The workshop she created was dynamic, with a perfectly balanced learning curve and with a superb level of student engagement. The students learnt a new skill from scratch and this high morale was perfectly reflected in their evaluation! 10/10 would invite again.",
+  },
 ];
 
 export default students;
