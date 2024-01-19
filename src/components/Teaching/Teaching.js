@@ -1,4 +1,4 @@
-import React, { Fragment, useLayoutEffect } from "react";
+eimport React, { Fragment, useLayoutEffect } from "react";
 import BannerImage from "../Banner/BannerImage";
 import Banner from "../Banner/Banner";
 import Carousel from "../Carousel/Carousel";
@@ -68,7 +68,7 @@ function Teaching() {
         <Row className="justify-content-center mb-5">
           <Col md={12}>
             <h2 className="margin-top--large mb-2 color--secondary text-center">
-              Students have said:
+              Students & Colleagues have said:
             </h2>
           </Col>
           <Carousel data={students} />
