@@ -19,24 +19,30 @@ const students = [
   },
   {
     id: 4,
+    name: "participant of 'Mycellial creativity' - depth education workshop",
+    description:
+      "Thank you for the introspective exercise and for the trip to ecologies of others. It was so good and surprising (...) Sharing spaces like these are so interesting and important.",
+  },
+  {
+    id: 5,
     name: "student of 'The Environment and the Self' 2021",
     description:
       "Every class, homework assignment, and reading allowed me to explore myself and my place in the world. I feel much more grounded as an individual and plan to use the many lessons I learned in this class to lead me in a direction that feels true to me.",
   },
   {
-    id: 5,
+    id: 6,
     name: "MSc student 2018",
     description:
       "I really appreciated Telma's openness and availability for my doubts and questions. She was always enthusiastic, encouraging and could clarify even the more abstract matters of biology.",
   },
   {
-    id: 6,
+    id: 7,
     name: "student of 'The Environment and the Self' 2021",
     description:
       "Thank you so much for granting us the libratory agency to forge meaningful wisdoms within ourselves, with the natural world, and with each other. This class truly initiated a lifetime pursuit of meaningful and holistic understanding and I will be forever grateful for the incredible and illuminating space you created for us.",
   },
   {
-    id: 7,
+    id: 8,
     name: "student of 'The Environment and the Self' 2021",
     description:
       "With the exception of this class (...) my own thoughts and particular relationships with my environment were not considered or even asked about. That’s part of why this class was so valuable to me.",
