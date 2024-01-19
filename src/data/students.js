@@ -19,7 +19,7 @@ const students = [
   },
   {
     id: 4,
-    name: "participant of a depth education workshop in socio-ecology",
+    name: "Participant: 'Mycellial creativity' a depth education workshop in socio-ecology 2024",
     description:
       "Thank you for the introspective exercise and for the trip to the ecologies of others. It was so good and surprising (...) Sharing spaces like these are so interesting and important.",
   },
@@ -46,6 +46,12 @@ const students = [
     name: "student of 'The Environment and the Self' 2021",
     description:
       "With the exception of this class (...) my own thoughts and particular relationships with my environment were not considered or even asked about. That’s part of why this class was so valuable to me.",
+  },
+  {
+    id: 9,
+    name: "Participant: 'Returning Home' an socio-ecology and systemic thought workshop series 2023",
+    description:
+      "I had an opportunity to connect more with the shame and embarrassment that comes from acting outside of normative ways of being as defined by modern society and I had the opportunity to connect with my capacity to meet the biodiverse reality",
   },
 ];
 
